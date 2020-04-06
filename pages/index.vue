@@ -17,19 +17,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav m-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+         <nuxt-link  class="nav-link" to="/">Home <span class="sr-only">(current)</span></nuxt-link >
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <nuxt-link class="nav-link" to="about">About</nuxt-link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="services.html">Services</a>
+                    <nuxt-link class="nav-link" to="services">Services</nuxt-link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="project.html">portfolio</a>
+                  <nuxt-link class="nav-link" to="project">portfolio</nuxt-link>
               </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <nuxt-link class="nav-link" to="contact">Contact</nuxt-link>
                 </li>
             </ul>
           <!--  <ul class="navbar-nav">
@@ -498,6 +498,7 @@
 //import VuetifyLogo from '~/components/VuetifyLogo.vue'
 
 export default {
+  
   components: {
   //  Logo,
   //  VuetifyLogo

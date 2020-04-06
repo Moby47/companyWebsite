@@ -97,7 +97,7 @@ export default {
   head () {
     return {
       script: [
-      //  {src: '/assets/js/bootstrap.min.js'}
+      //  {src: '/js/particles.min.js'}
       ]
     }
   },
