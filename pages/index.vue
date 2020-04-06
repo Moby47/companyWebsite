@@ -32,11 +32,12 @@
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
-            <ul class="navbar-nav">
+          <!--  <ul class="navbar-nav">
                 <li class="nav-item">
                     <a href="#demo" class="btn btn-primary btn-style">View Demo</a>
                 </li>
             </ul>
+          -->
         </div>
     </nav>
   </header>
@@ -48,7 +49,8 @@
       <div class="container">
           <div class="row align-items-center">
               <div class="col-lg-7 col-md-12 col-sm-12 order-lg-first mt-lg-0 mt-4">
-                  <h1 class="mb-4 title"><strong>Doing </strong>the right thing, <br>at the <strong>right time.</strong>
+                  <h1 class="mb-4 title title-size">
+                    <strong>Doing </strong>the right thing, <br>at the <strong>right time.</strong>
                   </h1>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, excepturi.
                       Distinctio accusantium fugit odit? Fugit ipsam nostrum minus alias, expedita voluptatem
@@ -56,8 +58,8 @@
                       adipisicing
                       elit.</p>
                   <div class="mt-5">
-                      <a class="btn btn-primary btn-style mr-2" href="about.html">Read More </a>
-                      <a class="btn btn-outline btn-outline-style" href="services.html">Our Services </a>
+             <a class="btn btn-primary btn-style mr-2 text-white" href="about.html">Read More </a>
+          <a class="btn btn-outline btn-outline-style text-white" href="services.html">Our Services </a>
                   </div>
               </div>
               <div class="col-lg-5 col-md-12 col-sm-12 order-first text-lg-left text-center">
@@ -71,7 +73,7 @@
   <!-- //banner section -->
   
   <!-- home page about -->
-  <section class="w3l-about">
+  <section class="w3l-about section-bg-color text-white">
       <div class="container">
           <div class="row about-content">
               <div class="col-lg-6 info mb-lg-0 mb-sm-5 mb-4 align-center">

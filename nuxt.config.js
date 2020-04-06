@@ -45,6 +45,7 @@ export default {
   */
   css: [
     '@/assets/css/style-starter.css',
+    '@/assets/css/custom.css',
   ],
   /*
   ** Plugins to load before mounting the App

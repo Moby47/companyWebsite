@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  
     <!--
     <v-navigation-drawer
       v-model="drawer"
@@ -59,11 +59,11 @@
       </v-btn>
     </v-app-bar>
 -->
-    <v-content>
+    <div>
     
         <nuxt />
     
-    </v-content>
+    </div>
     <!--
     <v-navigation-drawer
       v-model="rightDrawer"
@@ -88,7 +88,7 @@
     >
       <span>&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>--> 
-  </v-app>
+ 
 </template>
 
 <script>
