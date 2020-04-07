@@ -31,9 +31,8 @@
                   <a href="#author" class="author"><span class="fa fa-user mr-2"></span>Alexander Smith</a>
               </div>
               <div class="col-lg-6">
-                  <v-img src="_nuxt/assets/images/about1.png"
-                  :lazy-src="`_nuxt/assets/images/about1.png`"
-                   class="img-fluid img-shadow" alt="about"></v-img>
+                  <img src="@/assets/images/about1.png"
+                   class="img-fluid img-shadow" alt="about">
               </div>
           </div>
       </div>
