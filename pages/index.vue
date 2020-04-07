@@ -25,7 +25,10 @@
               </div>
               <div class="col-lg-5 col-md-12 col-sm-12 order-first text-lg-left text-center">
                   <div>
-                      <img src="@/assets/images/banner-round.png" alt="" class="rounded-circle img-fluid">
+                      <v-img src="_nuxt/assets/images/banner-round.png"
+                      alt=""
+                      :lazy-src="`_nuxt/assets/images/banner-round.png`"
+                       class="rounded-circle img-fluid"></v-img>
                   </div>
               </div>
           </div>
@@ -47,7 +50,9 @@
                       Fugit ipsam nostrum minus alias, expedita.</p>
               </div>
               <div class="col-lg-6">
-                  <img src="@/assets/images/about.png" class="img-fluid img-shadow" alt="about">
+                  <v-img src="_nuxt/assets/images/about.png"
+                  :lazy-src="`_nuxt/assets/images/about.png`"
+                   class="img-fluid img-shadow" alt="about"></v-img>
               </div>
           </div>
       </div>
