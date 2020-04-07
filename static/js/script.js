@@ -18,7 +18,12 @@ $(function() {
   //Main navigation Active Class Add Remove
   $(".navbar-toggler").on("click", function() {
     $("header").toggleClass("active");
+    //toggle nav with code
+    $('#navbarNav').slideToggle();
+   
   });
+
+  
   $(document).on("ready", function() {
     if ($(window).width() > 991) {
       $("header").removeClass("active");

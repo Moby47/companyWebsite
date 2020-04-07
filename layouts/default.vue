@@ -67,7 +67,7 @@
         <a class="navbar-brand" href="index.html">
             <span class="fa fa-shield"></span> Captivate
         </a>
-        <button class="navbar-toggler bg-gradient" type="button" data-toggle="collapse"
+        <button class="navbar-toggler bg-gradient" type="button" data-toggle=""
             data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -191,6 +191,10 @@ export default {
       { src: 'js/owl.carousel.js' },
       ]
     }
+  },
+
+  mounted(){
+    
   },
 
   data () {

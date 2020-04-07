@@ -549,6 +549,9 @@ export default {
 	Owl carousel
   *===================================*/
   
+  //collapse nav on component load
+  $('#navbarNav').hide('fade');
+  
 },
 
   components: {

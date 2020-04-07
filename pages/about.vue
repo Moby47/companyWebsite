@@ -248,6 +248,11 @@
     
     export default {
       
+      mounted(){
+        //collapse nav on component load
+        $('#navbarNav').hide('fade');
+      },
+      
       components: {
       //  Logo,
       //  VuetifyLogo
