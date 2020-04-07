@@ -26,7 +26,7 @@
                     <nuxt-link class="nav-link" to="services">Services</nuxt-link>
                 </li>
                 <li class="nav-item">
-                  <nuxt-link class="nav-link" to="project">portfolio</nuxt-link>
+                  <nuxt-link class="nav-link" to="portfolio">portfolio</nuxt-link>
               </li>
                 <li class="nav-item">
                     <nuxt-link class="nav-link" to="contact">Contact</nuxt-link>
