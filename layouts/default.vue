@@ -28,6 +28,9 @@
                 <li class="nav-item">
                   <nuxt-link class="nav-link" to="portfolio">portfolio</nuxt-link>
               </li>
+              <li class="nav-item">
+                  <nuxt-link class="nav-link" to="blog">blog</nuxt-link>
+              </li>
                 <li class="nav-item">
                     <nuxt-link class="nav-link" to="contact">Contact</nuxt-link>
                 </li>
