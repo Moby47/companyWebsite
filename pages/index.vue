@@ -11,7 +11,8 @@
           <div class="row align-items-center">
               <div class="col-lg-7 col-md-12 col-sm-12 order-lg-first mt-lg-0 mt-4">
                   <h1 class="mb-4 title title-size">
-                    <strong>Doing </strong>the right thing, <br>at the <strong>right time.</strong>
+
+                    <strong>We Make </strong>Technology, <br>work <strong>for you.</strong>
                   </h1>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, excepturi.
                       Distinctio accusantium fugit odit? Fugit ipsam nostrum minus alias, expedita voluptatem
@@ -19,8 +20,8 @@
                       adipisicing
                       elit.</p>
                   <div class="mt-5">
-             <a class="btn btn-primary btn-style mr-2 text-white" href="about.html">Read More </a>
-          <a class="btn btn-outline btn-outline-style text-white" href="services.html">Our Services </a>
+             <nuxt-link class="btn btn-primary btn-style mr-2 text-white" to="about">Read More </nuxt-link>
+          <nuxt-link class="btn btn-outline btn-outline-style text-white" to="services">Our Services </nuxt-link>
                   </div>
               </div>
               <div class="col-lg-5 col-md-12 col-sm-12 order-first text-lg-left text-center">

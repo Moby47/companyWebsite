@@ -33,6 +33,7 @@ export default {
   loading: { 
     color: '#2e9cca',
     height: '8px',
+    throttle: 0,
   },
   /*
   ** Global CSS
