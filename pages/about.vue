@@ -22,12 +22,17 @@
           <div class="row about-content">
               <div class="col-lg-6 info mb-lg-0 mb-5 align-center">
                <!--   <span class="title">Technology</span> -->
-                  <h6>Business planning, Strategy and Execution. A problem-solving philosophy that leads to
-                      products people actually want to use.</h6>
-                  <p class="mt-md-4 mt-3"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
-                      recusandae, ducimus vel rerum accusamus odit provident nobis ratione quisquam obcaecati atque
-                      fuga maiores! Tenetur aspernatur alias unde facilis eveniet? Eius! Lorem ipsum dolor sit amet,
-                      Fugit ipsam nostrum minus alias, expedita.</p>
+                  <h6> Do you have trouble reaching your clients and customers online? 
+                      Poor web presence might be the reason why!
+                    We live in a digital era where everything can be done on the Internet 
+                    and websites powers the Internet.</h6>
+
+                  <p class="mt-md-4 mt-3"> Cohotek offers a wide range of web development services that will help you put your
+                        business on the map and start making a profit. 
+                        Our staff comprises of experienced specialists in 
+                        the field of web development, SEO promotion, web design. 
+                        Your website is your online business card. Develop your brand with Cohotek IT company
+                        to stay ahead of the competition!</p>
                <!--   <a href="#author" class="author"><span class="fa fa-user mr-2"></span>Alexander Smith</a>
             -->  </div>
               <div class="col-lg-6">
@@ -46,42 +51,34 @@
           <div class="container">
               <div class="row mobile-info-inn mx-lg-0">
                   <div class="col-lg-4 mobile-right">
+                    
                       <div class="row mobile-right-grids mb-lg-5 mb-4">
                           <div class="col-2 mobile-right-icon">
                               <div class="mobile-icon">
-                                  <span class="fa fa-html5"></span>
+                                  <span class="fa fa-rocket"></span>
                               </div>
                           </div>
                           <div class="col-10 mobile-right-info">
-                              <h6><a href="#url">For Designers</a></h6>
-                              <p>Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio consectetur
-                                  adipisicing elit.</p>
+                              <h6><a href="#url">For Startups</a></h6>
+                              <p>Cohotek will conduct in-depth market research on your field and
+                                    the demographics of your potential clients using search engine optimization (SEO) and public data.
+                                    </p>
                           </div>
                       </div>
+                     
                       <div class="row mobile-right-grids mb-lg-5 mb-4">
-                          <div class="col-2 mobile-right-icon">
-                              <div class="mobile-icon">
-                                  <span class="fa fa-gamepad"></span>
-                              </div>
-                          </div>
-                          <div class="col-10 mobile-right-info">
-                              <h6><a href="#url">For Developers</a></h6>
-                              <p>Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio consectetur
-                                  adipisicing elit.</p>
-                          </div>
-                      </div>
-                      <div class="row mobile-right-grids">
-                          <div class="col-2 mobile-right-icon">
-                              <div class="mobile-icon">
-                                  <span class="fa fa-id-badge"></span>
-                              </div>
-                          </div>
-                          <div class="col-10 mobile-right-info">
-                              <h6><a href="#url">For Business</a></h6>
-                              <p>Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio consectetur
-                                  adipisicing elit.</p>
-                          </div>
-                      </div>
+                            <div class="col-2 mobile-right-icon">
+                                <div class="mobile-icon">
+                                    <span class="fa fa-shopping-cart"></span>
+                                </div>
+                            </div>
+                            <div class="col-10 mobile-right-info">
+                                <h6><a href="#url">For Ecommerce</a></h6>
+                                <p>Customers prefer online shopping over conventional shopping these days.
+                                       Cohotek can build an online store to increase your business’s success.</p>
+                            </div>
+                        </div>
+
                   </div>
                   <div class="col-lg-4 mobile-left">
                       <img src="@/assets/images/cohotek-it-company-services.png" class="img-fluid" alt="">
@@ -90,37 +87,26 @@
                       <div class="row mobile-right-grids mb-lg-5 mb-4">
                           <div class="col-2 mobile-right-icon">
                               <div class="mobile-icon">
-                                  <span class="fa fa-css3"></span>
+                                  <span class="fa fa-users"></span>
                               </div>
                           </div>
                           <div class="col-10 mobile-right-info">
-                              <h6><a href="#url">For Designers</a></h6>
-                              <p>Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio consectetur
-                                  adipisicing elit.</p>
+                              <h6><a href="#url">For Anyone</a></h6>
+                              <p>Enroll for a professional web development training. Become a 
+                                    bespoke and ready to hire website designer and web application developer with Cohotek web training.</p>
                           </div>
                       </div>
-                      <div class="row mobile-right-grids mb-lg-5 mb-4">
-                          <div class="col-2 mobile-right-icon">
-                              <div class="mobile-icon">
-                                  <span class="fa fa-keyboard-o"></span>
-                              </div>
-                          </div>
-                          <div class="col-10 mobile-right-info">
-                              <h6><a href="#url">For Developers</a></h6>
-                              <p>Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio consectetur
-                                  adipisicing elit.</p>
-                          </div>
-                      </div>
+                     
                       <div class="row mobile-right-grids">
                           <div class="col-2 mobile-right-icon">
                               <div class="mobile-icon">
-                                  <span class="fa fa-recycle"></span>
+                                  <span class="fa fa-briefcase"></span>
                               </div>
                           </div>
                           <div class="col-10 mobile-right-info">
                               <h6><a href="#url">For Business</a></h6>
-                              <p>Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio consectetur
-                                  adipisicing elit.</p>
+                              <p>Build up your brand by Cohotek, using a stunning website design
+                                    and get a following of people who are ready to jump when you open your doors for business.</p>
                           </div>
                       </div>
                   </div>

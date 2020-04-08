@@ -9,7 +9,7 @@
       <div id="banner-bg-effect" class="banner-effect"></div>
       <div class="container">
           <div class="row align-items-center">
-              <div class="col-lg-7 col-md-12 col-sm-12 order-lg-first mt-lg-0 mt-4">
+              <div class="col-lg-7 col-md-12 col-sm-12 order-lg-first mt-lg-0 custom-margin">
                   <h1 class="mb-4 title title-size">
 
                     <strong>We Make </strong>Technology, <br>work <strong>for you.</strong>
@@ -18,19 +18,16 @@
                       everything can be done on the Internet. Modern users value their time.
                        They go online to shop and book services, and if they cannot locate your 
                     company or struggle to find their 
-                    way around your website – you are losing money. <br>
-                    
-                    CohoTek offers a wide range of web development services 
-                    that will help you put your business on the map and start making a profit.</p>
+                    way around your website – you are losing money.</p>
                   <div class="mt-5">
              <nuxt-link class="btn btn-primary btn-style mr-2 text-white" to="about">Read More </nuxt-link>
-          <nuxt-link class="btn btn-outline btn-outline-style text-white" to="services">Our Services </nuxt-link>
+          <nuxt-link class="btn btn-outline btn-outline-style text-white custom-hover" to="services">Our Services </nuxt-link>
                   </div>
               </div>
               <div class="col-lg-5 col-md-12 col-sm-12 order-first text-lg-left text-center">
                   <div>
                       <img src="@/assets/images/cohotek-it-company.png" alt="cohotek IT company"
-                       class="rounded-circle img-fluid">
+                       class="rounded-circle img-fluid hide-mobile">
                   </div>
               </div>
           </div>
@@ -43,7 +40,7 @@
       <div class="container">
           <div class="row about-content">
               <div class="col-lg-6 info mb-lg-0 mb-sm-5 mb-4 align-center">
-                  <h3 class="title">About Us</h3>
+                  <h3 class="title">Experience IT</h3>
                   <h6>Do you have trouble reaching your clients and customers online? Poor
                       web presence might be the reason why!</h6>
                   <p class="mt-md-4 mt-3 mb-0"> Our staff comprises of experienced specialists in the field of web development, SEO promotion,
@@ -112,7 +109,7 @@
       <div class="container">
           <div class="row align-items-center">
               <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
-                  <h4 class="section-title">Their Visions, Our Tech</h4>
+                  <h4 class="section-title">Building the Future with Tech</h4>
                   <p class="text-center">
                       Testimonies from satisfied clients.</p>
               </div>
@@ -269,7 +266,7 @@
       <div class="container">
           <div class="row align-items-center">
               <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
-                  <h4 class="section-title">Company News</h4>
+                  <h4 class="section-title">Our Blog</h4>
                   <p class="text-center">Stay informed. Technology made simple.</p>
               </div>
           </div>

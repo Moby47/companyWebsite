@@ -32,7 +32,7 @@ export default {
   */
   loading: { 
     color: '#2e9cca',
-    height: '8px',
+    height: '5px',
     throttle: 0,
   },
   /*
