@@ -10,7 +10,7 @@
   </section>
   <nav aria-label="breadcrumb">
       <ol class="breadcrumb breadcrumb-padding">
-          <li class="breadcrumb-item"><a href="/">Home</a></li>
+          <li class="breadcrumb-item"><nuxt-link to="/">Home</nuxt-link></li>
           <li class="breadcrumb-item active" aria-current="page">About us</li>
       </ol>
   </nav>
@@ -21,18 +21,18 @@
       <div class="container">
           <div class="row about-content">
               <div class="col-lg-6 info mb-lg-0 mb-5 align-center">
-                  <span class="title">Technology</span>
+               <!--   <span class="title">Technology</span> -->
                   <h6>Business planning, Strategy and Execution. A problem-solving philosophy that leads to
                       products people actually want to use.</h6>
                   <p class="mt-md-4 mt-3"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
                       recusandae, ducimus vel rerum accusamus odit provident nobis ratione quisquam obcaecati atque
                       fuga maiores! Tenetur aspernatur alias unde facilis eveniet? Eius! Lorem ipsum dolor sit amet,
                       Fugit ipsam nostrum minus alias, expedita.</p>
-                  <a href="#author" class="author"><span class="fa fa-user mr-2"></span>Alexander Smith</a>
-              </div>
+               <!--   <a href="#author" class="author"><span class="fa fa-user mr-2"></span>Alexander Smith</a>
+            -->  </div>
               <div class="col-lg-6">
-                  <img src="@/assets/images/about1.png"
-                   class="img-fluid img-shadow" alt="about">
+                  <img src="@/assets/images/about-cohotek-it-company.png"
+                   class="img-fluid img-shadow" alt="cohotek it company">
               </div>
           </div>
       </div>
@@ -84,7 +84,7 @@
                       </div>
                   </div>
                   <div class="col-lg-4 mobile-left">
-                      <img src="@/assets/images/mobile.png" class="img-fluid" alt="">
+                      <img src="@/assets/images/cohotek-it-company-services.png" class="img-fluid" alt="">
                   </div>
                   <div class="col-lg-4 mobile-right">
                       <div class="row mobile-right-grids mb-lg-5 mb-4">
@@ -132,9 +132,9 @@
   </section>
   <!-- //mobile section --->
   
-  <!-- about page team section -->
+  <!-- about page team section 
   <section class="w3l-team-main-6">
-      <!-- /team-grids -->
+      <!- /team-grids 
       <div class="team-content">
           <div class="container">
               <div class="row align-items-center">
@@ -186,24 +186,23 @@
               </div>
           </div>
       </div>
-      <!-- /team-grids -->
+      <!- /team-grids ->
   </section>
-  <!-- //about page team section -->
+  <!- //about page team section -->
   
   <!-- about page form section -->
-  <section class="forms-29">
+  <section class="">
       <div class="container">
           <div class="row align-items-center">
               <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
                   <h4 class="section-title">Want to work with us?</h4>
-                  <p class="text-center">Lorem ipsum dolor, sit amet consectet et adipis icing elit. Ab commodi iure minus
-                      laboriosam placeat quia, dolorem animi. Eveniet repudiandae, iure et.</p>
+                  <p class="text-center">Let us triple your business results with tech, today!</p>
               </div>
           </div>
         </div>
           <div class="form-main-cont-29 mt-5">
               <div class="content-29-form d-grid">
-                  <form action="#" method="post">
+<!--<form action="#" method="post">
                       <div class="forms-29-form">
                           <div class="form-group">
                               <label class="input__label">Your name</label>
@@ -232,7 +231,11 @@
                           </div>
                       </div>
                       <button type="submit" class="btn btn-primary btn-style mt-2">Lets Talk</button>
-                  </form>
+                  </form>-->
+
+                  <p class='text-center'>
+      <nuxt-link to='contact' class="btn btn-primary btn-style mt-2 text-center">Lets Talk</nuxt-link>
+                </p>
               </div>
           </div>
   </section>

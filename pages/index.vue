@@ -14,11 +14,14 @@
 
                     <strong>We Make </strong>Technology, <br>work <strong>for you.</strong>
                   </h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, excepturi.
-                      Distinctio accusantium fugit odit? Fugit ipsam nostrum minus alias, expedita voluptatem
-                      illo quis id eos quae odio, nobis deleniti delectus? Lorem ipsum dolor sit amet consectetur
-                      adipisicing
-                      elit.</p>
+                  <p>We live in a digital era where
+                      everything can be done on the Internet. Modern users value their time.
+                       They go online to shop and book services, and if they cannot locate your 
+                    company or struggle to find their 
+                    way around your website – you are losing money. <br>
+                    
+                    CohoTek offers a wide range of web development services 
+                    that will help you put your business on the map and start making a profit.</p>
                   <div class="mt-5">
              <nuxt-link class="btn btn-primary btn-style mr-2 text-white" to="about">Read More </nuxt-link>
           <nuxt-link class="btn btn-outline btn-outline-style text-white" to="services">Our Services </nuxt-link>
@@ -26,7 +29,7 @@
               </div>
               <div class="col-lg-5 col-md-12 col-sm-12 order-first text-lg-left text-center">
                   <div>
-                      <img src="@/assets/images/banner-round.png" alt=""
+                      <img src="@/assets/images/cohotek-it-company.png" alt="cohotek IT company"
                        class="rounded-circle img-fluid">
                   </div>
               </div>
@@ -41,15 +44,16 @@
           <div class="row about-content">
               <div class="col-lg-6 info mb-lg-0 mb-sm-5 mb-4 align-center">
                   <h3 class="title">About Us</h3>
-                  <h6>Business planning, Strategy and Execution. A problem-solving philosophy that leads to
-                      products people actually want to use.</h6>
-                  <p class="mt-md-4 mt-3 mb-0"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
-                      recusandae, ducimus vel rerum accusamus odit provident nobis ratione quisquam obcaecati atque
-                      fuga maiores! Tenetur aspernatur alias unde facilis eveniet? Eius! Lorem ipsum dolor sit amet,
-                      Fugit ipsam nostrum minus alias, expedita.</p>
+                  <h6>Do you have trouble reaching your clients and customers online? Poor
+                      web presence might be the reason why!</h6>
+                  <p class="mt-md-4 mt-3 mb-0"> Our staff comprises of experienced specialists in the field of web development, SEO promotion,
+                      web design, IT training, and support. 
+                     Your website is your online business card. Develop your brand with CohoTek to stay 
+                     ahead of the competition!</p>
               </div>
               <div class="col-lg-6">
-                  <img src="@/assets/images/about.png" class="img-fluid img-shadow" alt="about">
+                  <img src="@/assets/images/cohotek-web-search.png" class="img-fluid img-shadow" 
+                  alt="cohotek IT web development company">
               </div>
           </div>
       </div>
@@ -61,9 +65,10 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
-          <h4 class="section-title">Meet Our Solution For You</h4>
-          <p class="text-center">Lorem ipsum dolor, sit amet consectet et adipis icing elit. Ab commodi iure minus
-            laboriosam placeat quia, dolorem animi. Eveniet repudiandae, iure et.</p>
+          <h4 class="section-title">IT Problems Begone</h4>
+          <p class="text-center">We are a full-stack web development company offering a full 
+            spectrum of services linked to the internet. 
+              Hire us, and in a short period of time, you will notice a significant boost in your revenue and number of clients.</p>
         </div>
       </div>
       <div class="row mt-lg-5">
@@ -73,8 +78,8 @@
               <span class="fa fa-briefcase"></span>
             </div>
             <h4><a href="#url">Business Services</a></h4>
-            <p>Lorem ipsum dolor sit amet sed consectetur adipisicing elit.
-              doloret quas saepe autem, dolor set.</p>
+            <p>We are a one-stop IT solutions company with a difference,
+              we want to change the world by the way we do business.</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12">
@@ -83,48 +88,18 @@
               <span class="fa fa-shield"></span>
             </div>
             <h4><a href="#url">Product Consulting</a></h4>
-            <p>Lorem ipsum dolor sit amet sed consectetur adipisicing elit.
-              doloret quas saepe autem, dolor set.</p>
+            <p>A team of dedicated Product Consulting Services experts
+               provides solutions to meet your management challenges.</p>
           </div>
         </div>
+       
         <div class="col-lg-4 col-md-6 col-sm-12">
           <div class="box-wrap">
             <div class="icon">
-              <span class="fa fa-dollar"></span>
-            </div>
-            <h4><a href="#url">Financial Consulting</a></h4>
-            <p>Lorem ipsum dolor sit amet sed consectetur adipisicing elit.
-              doloret quas saepe autem, dolor set.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="box-wrap">
-            <div class="icon">
-              <span class="fa fa-industry"></span>
-            </div>
-            <h4><a href="#url">Investment Planning</a></h4>
-            <p>Lorem ipsum dolor sit amet sed consectetur adipisicing elit.
-              doloret quas saepe autem, dolor set.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="box-wrap">
-            <div class="icon">
-              <span class="fa fa-lightbulb-o"></span>
-            </div>
-            <h4><a href="#url">Business Growth</a></h4>
-            <p>Lorem ipsum dolor sit amet sed consectetur adipisicing elit.
-              doloret quas saepe autem, dolor set.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="box-wrap">
-            <div class="icon">
-              <span class="fa fa-picture-o"></span>
+              <span class="fa fa-globe"></span>
             </div>
             <h4><a href="#url">Projects Worldwide</a></h4>
-            <p>Lorem ipsum dolor sit amet sed consectetur adipisicing elit.
-              doloret quas saepe autem, dolor set.</p>
+            <p>We are opened to a market of vast populations that could be interested all around the world.</p>
           </div>
         </div>
       </div>
@@ -137,10 +112,9 @@
       <div class="container">
           <div class="row align-items-center">
               <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
-                  <h4 class="section-title">What they said about us</h4>
-                  <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority
-                      have
-                      suffered alteration in some form, by injected humour</p>
+                  <h4 class="section-title">Their Visions, Our Tech</h4>
+                  <p class="text-center">
+                      Testimonies from satisfied clients.</p>
               </div>
           </div>
           <div class="large-12 columns mt-5">
@@ -150,9 +124,6 @@
                           <div class="customers_sur">
                               <div class="customers-left_sur">
                                   <div class="customers_grid">
-                                      <div class="custo-img-res">
-                                          <img src="@/assets/images/testi1.jpg" alt=" " class="">
-                                      </div>
                                       <div class="ratings my-4 my-4">
                                           <span class="fa fa-star"></span>
                                           <span class="fa fa-star"></span>
@@ -165,7 +136,7 @@
                                       <div class="customers-bottom_sur">
                                           <div class="custo_grid">
                                               <h5>Tanguy De</h5>
-                                              <span>Designation</span>
+                                              <span>link</span>
                                           </div>
                                       </div>
                                   </div>
@@ -178,11 +149,7 @@
                           <div class="customers_sur">
                               <div class="customers-left_sur">
                                   <div class="customers_grid">
-                                      <div class="custo-img-res">
-                                          <img src="@/assets/images/testi2.jpg" alt=" " class="img-fluid">
-                                      </div>
                                       <div class="ratings my-4">
-                                          <span class="fa fa-star"></span>
                                           <span class="fa fa-star"></span>
                                           <span class="fa fa-star"></span>
                                           <span class="fa fa-star"></span>
@@ -206,9 +173,7 @@
                           <div class="customers_sur">
                               <div class="customers-left_sur">
                                   <div class="customers_grid">
-                                      <div class="custo-img-res">
-                                          <img src="@/assets/images//testi3.jpg" alt=" " class="img-fluid">
-                                      </div>
+                                     
                                       <div class="ratings my-4">
                                           <span class="fa fa-star"></span>
                                           <span class="fa fa-star"></span>
@@ -234,9 +199,6 @@
                           <div class="customers_sur">
                               <div class="customers-left_sur">
                                   <div class="customers_grid">
-                                      <div class="custo-img-res">
-                                          <img src="@/assets/images//testi4.jpg" alt=" " class="img-fluid">
-                                      </div>
                                       <div class="ratings my-4">
                                           <span class="fa fa-star"></span>
                                           <span class="fa fa-star"></span>
@@ -257,34 +219,7 @@
                           </div>
                       </div>
                   </div>
-                  <div class="item">
-                      <div class="w3l-customers-7">
-                          <div class="customers_sur">
-                              <div class="customers-left_sur">
-                                  <div class="customers_grid">
-                                      <div class="custo-img-res">
-                                          <img src="@/assets/images//testi5.jpg" alt=" " class="img-fluid">
-                                      </div>
-                                      <div class="ratings my-4">
-                                          <span class="fa fa-star"></span>
-                                          <span class="fa fa-star"></span>
-                                          <span class="fa fa-star"></span>
-                                          <span class="fa fa-star"></span>
-                                          <span class="fa fa-star"></span>
-                                      </div>
-                                      <p>Lorem ipsum dolor, sit amet consect adipis icing elit. Ab commodi iure minus
-                                          placeat quia, animi. Eveniet, iure et. ipsum dolor sed ut init et.</p>
-                                      <div class="customers-bottom_sur">
-                                          <div class="custo_grid">
-                                              <h5>Abigail</h5>
-                                              <span>Designation</span>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
+                 
               </div>
           </div>
       </div>
@@ -296,9 +231,8 @@
       <div class="container">
           <div class="row">
               <div class="col-lg-5 margin-md-60">
-                  <h2 class="left-title">Some of Our Company Real Facts.</h2>
-                  <p class="white">Lorem ipsum dolor, sit amet consectet et adipis icing elit. Ab commodi iure minus
-                      laboriosam placeat quia, dolorem animi. Eveniet repudiandae, iure et.</p>
+                  <h2 class="left-title">Behind the scenes.</h2>
+                  <p class="white">Some of Our Company Real Facts</p>
               </div>
               <div class="col-lg-7 mt-lg-0 mt-5">
                   <div class="d-sm-flex justify-content-lg-around justify-content-between counter-main">
@@ -306,21 +240,21 @@
                           <div class="icon">
                               <span class="fa fa-folder-open-o"></span>
                           </div>
-                          <p class="value">385</p>
+                          <p class="value">15</p>
                           <p class="title white">Projects</p>
                       </div>
                       <div class="counter">
                           <div class="icon">
                               <span class="fa fa-headphones"></span>
                           </div>
-                          <p class="value">260</p>
+                          <p class="value">12</p>
                           <p class="title white">Consultant</p>
                       </div>
                       <div class="counter">
                           <div class="icon">
                               <span class="fa fa-trophy"></span>
                           </div>
-                          <p class="value">150</p>
+                          <p class="value">10</p>
                           <p class="title white">Awards</p>
                       </div>
                   </div>
@@ -336,9 +270,7 @@
           <div class="row align-items-center">
               <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
                   <h4 class="section-title">Company News</h4>
-                  <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority
-                      have
-                      suffered alteration in some form, by injected humour</p>
+                  <p class="text-center">Stay informed. Technology made simple.</p>
               </div>
           </div>
           <div class="blog-grids row mt-5">
@@ -349,8 +281,7 @@
                   <div class="blog-info">
                       <h3><a href="#blog-single.html">4 Steps To Consider Before You Start</a> </h3>
                       <ul>
-                          <li><a href="#author"><span class="fa fa-user-o mr-2"></span>Johnson smith</a></li>
-                          <li><span class="fa fa-calendar mr-2"></span>Jan 16, 2020</li>
+                       <li><span class="fa fa-calendar mr-2"></span>Jan 16, 2020</li>
                       </ul>
                   </div>
               </div>
@@ -361,8 +292,7 @@
                   <div class="blog-info">
                       <h3><a href="#blog-single.html">Strategic Plan Execution Management</a> </h3>
                       <ul>
-                          <li><a href="#author"><span class="fa fa-user-o mr-2"></span>Alexander</a></li>
-                          <li><span class="fa fa-calendar mr-2"></span>Jan 19, 2020</li>
+                         <li><span class="fa fa-calendar mr-2"></span>Jan 19, 2020</li>
                       </ul>
                   </div>
               </div>
@@ -373,8 +303,7 @@
                   <div class="blog-info">
                       <h3><a href="#blog-single.html">Business planning, strategy and execution</a> </h3>
                       <ul>
-                          <li><a href="#author"><span class="fa fa-user-o mr-2"></span>Elizabeth ker</a></li>
-                          <li><span class="fa fa-calendar mr-2"></span>Jan 21, 2020</li>
+                         <li><span class="fa fa-calendar mr-2"></span>Jan 21, 2020</li>
                       </ul>
                   </div>
               </div>

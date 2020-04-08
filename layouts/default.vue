@@ -6,7 +6,7 @@
 <header id="site-header" class="fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark">
         <nuxt-link  class="navbar-brand" to="/">
-            <span class="fa fa-shield"></span> Coho-Tek
+            <span class="fa fa-shield"></span> CohoTek
         </nuxt-link>
         <button class="navbar-toggler bg-gradient" type="button" data-toggle=""
             data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -56,31 +56,31 @@
           <div class="row">
             <div class="col-lg-4">
               <div class="footer-logo mb-3">
-                <a href="index.html">
-                  <span class="fa fa-shield"></span> Captivate
-                </a>
+                  <nuxt-link  class="navbar-brand" to="/">
+                    <span class="fa fa-shield"></span> CohoTek
+                </nuxt-link>
               </div>
               <div>
-                <p class="">Lorem ipsum dolor, sit amet consectet et adipis icing elit. Ab commodi iure minus
-                  laboriosam
-                  placeat quia, dolorem animi. Eveniet repudiandae, perferendis nesciunt deserunt iure et, consequatur
-                  optio!</p>
+                <p class="">CohoTek IT Solutions is a one-stop IT company dedicated to creating value
+                    through our products and services. We focus on efficiency, easy of use and affordability in all of 
+                   our products and services and have only one major goal – making our customers happy.
+                  </p>
               </div>
             </div>
             <!-- Quick Links -->
             <div class="col-lg-3 col-md-4 mt-lg-0 mt-5">
               <h4 class="footer-title">Quick Links</h4>
               <ul class="footer-list">
-                <li><a href="about.html"> About company</a></li>
-                <li><a href="services.html"> Explore services</a></li>
-                <li><a href="#work"> How does we Work?</a></li>
-                <li><a href="#projects"> View projects</a></li>
+                <li><nuxt-link to="about"> About company</nuxt-link></li>
+                <li><nuxt-link to="services"> Explore services</nuxt-link></li>
+                <li><nuxt-link to="contact"> Contact us?</nuxt-link></li>
+                <li><nuxt-link to="portfolio"> View projects</nuxt-link></li>
               </ul>
             </div>
             <!-- Newsletter -->
             <div class="col-lg-5 col-md-8 mt-lg-0 mt-5">
               <h4 class="footer-title">Newsletter</h4>
-              <p class="mb-4">By subscribing to our mailing list you will always be updated with the latest news from us.
+              <p class="mb-4">By subscribing to our mailing list you will be updated with the latest news from us.
               </p>
               <form class="newsletter-form">
                 <input class="input-rounded" type="text" required="" placeholder="Enter Email Address">
@@ -96,8 +96,10 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 text-lg-left text-center mb-lg-0 mb-3">
-              <p class="copyright">© 2020 Captivate. All Rights Reserved. Design by <a
-                href="https://w3layouts.com/">W3Layouts</a></p>
+            <!-- <p class="copyright">© 2020 Captivate. All Rights Reserved. Design by <a
+                href="https://w3layouts.com/">W3Layouts</a></p>--> 
+                <p class="copyright">© 2020. All Rights Reserved. <a
+                  href="https://cohotek.tech">CohoTek</a></p>
             </div>
             <div class="col-lg-4 align-center text-lg-right text-center">
               <a href="#facebook" class="social-item"><span class="fa fa-facebook-f"></span></a>
