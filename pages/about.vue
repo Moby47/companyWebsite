@@ -59,7 +59,7 @@
                               </div>
                           </div>
                           <div class="col-10 mobile-right-info">
-                              <h6><a href="#url">For Startups</a></h6>
+                              <h6><a href="#cohotek IT company">For Startups</a></h6>
                               <p>Cohotek will conduct in-depth market research on your field and
                                     the demographics of your potential clients using search engine optimization (SEO) and public data.
                                     </p>
@@ -73,7 +73,7 @@
                                 </div>
                             </div>
                             <div class="col-10 mobile-right-info">
-                                <h6><a href="#url">For Ecommerce</a></h6>
+                                <h6><a href="#cohotek IT company">For E-Commerce</a></h6>
                                 <p>Customers prefer online shopping over conventional shopping these days.
                                        Cohotek can build an online store to increase your business’s success.</p>
                             </div>
@@ -91,7 +91,7 @@
                               </div>
                           </div>
                           <div class="col-10 mobile-right-info">
-                              <h6><a href="#url">For Anyone</a></h6>
+                              <h6><a href="#cohotek IT company">For Anyone</a></h6>
                               <p>Enroll for a professional web development training. Become a 
                                     bespoke and ready to hire website designer and web application developer with Cohotek web training.</p>
                           </div>
@@ -104,7 +104,7 @@
                               </div>
                           </div>
                           <div class="col-10 mobile-right-info">
-                              <h6><a href="#url">For Business</a></h6>
+                              <h6><a href="#cohotek IT company">For Business</a></h6>
                               <p>Build up your brand by Cohotek, using a stunning website design
                                     and get a following of people who are ready to jump when you open your doors for business.</p>
                           </div>

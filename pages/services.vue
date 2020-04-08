@@ -10,7 +10,7 @@
     </section>
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb breadcrumb-padding">
-            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><nuxt-link to="/">Home</nuxt-link></li>
             <li class="breadcrumb-item active" aria-current="page">Services</li>
         </ol>
     </nav>
@@ -23,33 +23,32 @@
                 <div class="row align-items-center">
                     <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
                         <h4 class="section-title">What we provide</h4>
-                        <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority
-                            have
-                            suffered alteration in some form, by injected humour</p>
+                        <p class="text-center">How we help businesses, individuals triple their profits using IT</p>
                     </div>
                 </div>
                 <div class="row main-cont-wthree-2 mt-5">
                     <div class="col-lg-6 feature-grid-left order2 mt-lg-0 mt-sm-5 mt-4">
-                        <h4 class="title-left">A Productivity Platform</h4>
-                        <p class="text-para">Curabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed, lacinia est.
-                            Quisque ut lectus consequat, venenatis eros et, commodo risus. Nullam sit amet laoreet elit.
-                            Suspendisse non magna a velit imperdiet efficitur. </p>
-                        <a href="#readmore" class="btn btn-primary btn-style mt-4">Read More</a>
+                        <h4 class="title-left">Web Development</h4>
+                        <p class="text-para">Our team use the best web development tools in crafting beautiful 
+                                websites using modern technologies. We build websites that are sleek, 
+                                responsive, eye-catching, easy to use and dynamic, to attract visitors and persuade them to buy. </p>
+                                <nuxt-link to="porfolio" class="btn btn-primary btn-style mt-4">Our Works</nuxt-link>
                     </div>
                     <div class="col-lg-6 feature-grid-right order1">
-                        <img src="@/assets/images/s1.png" class="img-fluid img-shadow" alt="services">
+                        <img src="@/assets/images/cohotek-it-company-web-development.png" class="img-fluid img-shadow" alt="services">
                     </div>
                 </div>
                 <div class="row main-cont-wthree-2 mt-5">
                     <div class="col-lg-6 feature-grid-right">
-                        <img src="@/assets/images/s2.png" class="img-fluid img-shadow" alt="services">
+                        <img src="@/assets/images/cohotek-it-company-training.png" class="img-fluid img-shadow" alt="services">
                     </div>
                     <div class="col-lg-6 feature-grid-left mt-lg-0 mt-sm-5 mt-4">
-                        <h4 class="title-left">Performance Analyze</h4>
-                        <p class="text-para">Curabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed, lacinia est.
-                            Quisque ut lectus consequat, venenatis eros et, commodo risus. Nullam sit amet laoreet elit.
-                            Suspendisse non magna a velit imperdiet efficitur. </p>
-                        <a href="#readmore" class="btn btn-primary btn-style mt-4">Read More</a>
+                        <h4 class="title-left">ICT Training and Consultancy</h4>
+                        <p class="text-para">We train people on different ICT packages 
+                                and applications ranging from microsoft office, web design and development, ICT fundamentals and more.
+                                 We also provide professional ICT advises and consultancy
+                                 services for small, medium and large scale businesses. </p>
+                        <nuxt-link to="contact" class="btn btn-primary btn-style mt-4">Contact Us</nuxt-link>
                     </div>
                 </div>
             </div>
@@ -64,37 +63,44 @@
                 <div class="row main-cont-wthree-2">
                     <div class="col-lg-6 feature-grid-left">
                         <h4 class="section-title-left">Learn the features of our Beautiful lifestyle Business!</h4>
-                        <p class="text-para">Curabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed, lacinia est.
-                            Quisque ut lectus consequat, venenatis eros et, commodo risus. Nullam sit amet laoreet elit.
-                            Suspendisse non magna a velit imperdiet efficitur. </p>
+                        <p class="text-para">Are you looking for a website development company? we are ready to take on your
+                                project! Working with us, you can be confident that our dedicated team will throw all their
+                                 time and efforts into creating a brand new, customized web application tailored specifically
+                                  to your needs, 
+                                 providing you with the tools necessary for your online business success. </p>
                         <ul class="list mt-4">
-                            <li><span class="fa fa-check"></span> Fusce eget ex fermentum, ultricies nisi ac sed</li>
-                            <li><span class="fa fa-check"></span> Quisque ut lectus consequat, venenatis eros et amet</li>
-                            <li><span class="fa fa-check"></span> Fusce eget ex fermentum, ultricies nisi ac sed</li>
+                            <li><span class="fa fa-check"></span> We design and develop for the web</li>
+                            <li><span class="fa fa-check"></span> We provide digital marketing</li>
+                            <li><span class="fa fa-check"></span> We provide quality support and maintenance</li>
                         </ul>
-                        <a href="contact.html" class="btn btn-primary btn-style mt-4">Contact us</a>
+                        <nuxt-link to="contact" class="btn btn-primary btn-style mt-4">Contact Us</nuxt-link>
                     </div>
                     <div class="col-lg-6 feature-grid-right mt-lg-0 mt-5">
                         <div class="call-grids-w3 d-grid">
                             <div class="grids-1 box-wrap">
-                                <a href="#more" class="icon"><span class="fa fa-building"></span></a>
-                                <h4><a href="#feature" class="title-head">Management</a></h4>
-                                <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor.</p>
+                                <a href="#more" class="icon"><span class="fa fa-globe"></span></a>
+                                <h4><a href="#cohotek IT company" class="title-head">Design</a></h4>
+                                <p>Improve your market reliability with the most suitable web 
+                                        design for your real needs, giving you confidence in your customers.
+                                    </p>
                             </div>
                             <div class="grids-1 box-wrap">
-                                <a href="#more" class="icon"><span class="fa fa-usb"></span></a>
-                                <h4><a href="#feature" class="title-head">Utilization</a></h4>
-                                <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor.</p>
+                                <a href="#more" class="icon"><span class="fa fa-puzzle-piece"></span></a>
+                                <h4><a href="#cohotek IT company" class="title-head">Online Strategy</a></h4>
+                                <p>Do you know what you really need? With our analysis,
+                             we will provide you with the best web development and support best suited to your budget.</p>
                             </div>
                             <div class="grids-1 box-wrap">
-                                <a href="#more" class="icon"><span class="fa fa-bar-chart"></span></a>
-                                <h4><a href="#feature" class="title-head">Performance</a></h4>
-                                <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor.</p>
+                                <a href="#more" class="icon"><span class="fa fa-desktop"></span></a>
+                                <h4><a href="#cohotek IT company" class="title-head">Latest Technology</a></h4>
+                                <p>We take great pride in staying up to date on IT trends.
+                                        Keep your online visitors amazed with a stunning Progressive Web Application.</p>
                             </div>
                             <div class="grids-1 box-wrap">
-                                <a href="#more" class="icon"><span class="fa fa-refresh"></span></a>
-                                <h4><a href="#feature" class="title-head">Always Sync</a></h4>
-                                <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor.</p>
+                                <a href="#more" class="icon"><span class="fa fa-shopping-cart"></span></a>
+                                <h4><a href="#cohotek IT company" class="title-head">E-Commerce</a></h4>
+                                <p>Within 3 days, we can create an e-commerce website for you that
+                                        will help you triple the sales of your products and services online.</p>
                             </div>
                         </div>
                     </div>
@@ -112,14 +118,13 @@
                 <div class="row align-items-center">
                     <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
                         <h4 class="section-title">Simpler. Smarter. Faster.</h4>
-                        <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the
-                            majority
-                            have suffered alteration in some form, by injected humour</p>
+                        <p class="text-center">Hire us, and in a short period of time, you will notice a
+                             significant boost in your revenue and number of clients.</p>
                     </div>
                 </div>
                 <div class="row mobile-info-inn mx-lg-0 mt-md-5 mt-4">
                     <div class="col-lg-6 image-left">
-                        <img src="@/assets/images/s.jpg" class="img-fluid" alt="">
+                        <img src="@/assets/images/cohotek-it-comapny-services.png" class="img-fluid" alt="">
                     </div>
                     <div class="col-lg-6 mobile-right mt-lg-0 mt-5">
                         <div class="row mobile-right-grids mb-lg-5 mb-4">
@@ -129,33 +134,34 @@
                                 </div>
                             </div>
                             <div class="col-10 mobile-right-info">
-                                <h6><a href="#url">Performance Analyze</a></h6>
-                                <p>Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio consectetur
-                                    adipisicing elit.</p>
+                                <h6><a href="#cohotek IT company">Digital Marketing</a></h6>
+                                <p>  Our team of online marketers, social media managers 
+                                    and digital analysts are ready to help grow your online business. 
+                                    We help you grow your business with the aid of the internet.</p>
                             </div>
                         </div>
                         <div class="row mobile-right-grids mb-lg-5 mb-4">
                             <div class="col-2 mobile-right-icon">
                                 <div class="mobile-icon text-right mt-2">
-                                    <span class="fa fa-recycle"></span>
+                                    <span class="fa fa-info-circle"></span>
                                 </div>
                             </div>
                             <div class="col-10 mobile-right-info">
-                                <h6><a href="#url">Self-Healing</a></h6>
-                                <p>Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio consectetur
-                                    adipisicing elit.</p>
+                                <h6><a href="#cohotek IT company">Support</a></h6>
+                                <p>Work with Cohotek, a team who can always reach and consult 
+                                    and produce a quick solution in case of a potential problem.</p>
                             </div>
                         </div>
                         <div class="row mobile-right-grids">
                             <div class="col-2 mobile-right-icon">
                                 <div class="mobile-icon text-right mt-2">
-                                    <span class="fa fa-users"></span>
+                                    <span class="fa fa-search"></span>
                                 </div>
                             </div>
                             <div class="col-10 mobile-right-info">
-                                <h6><a href="#url">Work With Any Team</a></h6>
-                                <p>Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio consectetur
-                                    adipisicing elit.</p>
+                                <h6><a href="#cohotek IT company">SEO</a></h6>
+                                <p>Do you want to see your website in Google TOP search result?
+                                     We have the right tools and techniques to help you get on the first page!</p>
                             </div>
                         </div>
                     </div>

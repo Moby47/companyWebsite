@@ -10,7 +10,7 @@
     </section>
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb breadcrumb-padding">
-            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><nuxt-link to="/">Home</nuxt-link></li>
             <li class="breadcrumb-item active" aria-current="page">Contact</li>
         </ol>
     </nav>
@@ -22,14 +22,14 @@
             <div class="container">
                 <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12 px-lg-3 px-0">
                     <h4 class="section-title">Get in touch with us</h4>
-                    <p class="text-center">Lorem ipsum dolor, sit amet consectet et adipis icing elit. Ab commodi iure
-                        minus laboriosam placeat quia, dolorem animi. Eveniet repudiandae, iure et.</p>
+                    <p class="text-center">Your vision, our Tech. Let us take you online.</p>
                 </div>
                 <div class="row contact-main mt-5">
                     <div class="col-md-6 ">
                         <div class="column">
                             <h3 class="header">We are here for you</h3>
-                            <p class="head-main">For more information or inquiry about our products, projects and pricing
+                            <p class="head-main">For more information or inquiry
+                                 about our services, projects and pricing
                                 please feel free to
                                 get in touch with us.</p>
                         </div>
@@ -38,9 +38,9 @@
                                 <div class="icon">
                                     <span class="fa fa-map-marker"></span>
                                 </div>
-                                <div>
-                                    <strong class="info">Address:</strong class="info"> #135 block, Outdoor,
-                                    96 Wythe Ave, Brooklyn, NY 11249, United States.
+                               <div>
+                                    <strong class="info">Address:</strong class="info">
+                                         No 00. Ozumba Mbadiwe. Victoria Island
                                 </div>
                             </div>
                             <div class="contact-info-align">
@@ -48,9 +48,9 @@
                                     <span class="fa fa-phone"></span>
                                 </div>
                                 <div>
-                                    <strong class="info">Phone:</strong class="info"> <a href="tel:+404 11-22-88"> +123 45
-                                        67 88</a> ,
-                                    <a href="tel:+404 11-22-89"> +123 45 67 89</a>
+                                    <strong class="info">Phone:</strong class="info">
+                                        <a href="tel:+2348035562231"> Phone Number 1</a> ,
+                                    <a href="tel:+2348035000000"> Phone Number 2</a>
                                 </div>
                             </div>
                             <div class="contact-info-align">
@@ -58,8 +58,9 @@
                                     <span class="fa fa-envelope-open-o"> </span>
                                 </div>
                                 <div>
-                                    <strong class="info">Email:</strong> <a href="mailto:example@mail.com">
-                                        example@mail.com</a>
+                                    <strong class="info">Email:</strong> 
+                                    <a href="mailto:support@cohotek.tech">
+                                        support@cohotek.tech</a>
                                 </div>
                             </div>
                         </div>
@@ -98,7 +99,7 @@
                                 required />
                         </div>
                         <div>
-                            <input type="email" name="w3lSender" id="w3lSender" placeholder="Your Email id"
+                            <input type="email" name="w3lSender" id="w3lSender" placeholder="Your Email"
                                 class="contact-input" required />
                         </div>
                         <div>
