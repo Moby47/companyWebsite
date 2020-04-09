@@ -40,7 +40,7 @@
                                 </div>
                                <div>
                                     <strong class="info">Address:</strong class="info">
-                                         No 00. Ozumba Mbadiwe. Victoria Island
+                                         No 17 A. Ozumba Mbadiwe. Victoria Island
                                 </div>
                             </div>
                             <div class="contact-info-align">
@@ -76,7 +76,7 @@
                     <!-- map iframe-->
                     <div class="col-md-6 map mt-lg-0 mt-4">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2895687731!2d-74.26055986835598!3d40.697668402590374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1562582305883!5m2!1sen!2sin"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.6589273286695!2d3.4100281147702547!3d6.437831895342325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8ad63435c713%3A0xe1a93bf07adefdb6!2sThe%20Wings%20Complex!5e0!3m2!1sen!2sng!4v1586457537768!5m2!1sen!2sng"
                             frameborder="0" style="border:0" allowfullscreen=""></iframe>
                     </div>
                     <!-- //map iframe -->
@@ -95,19 +95,19 @@
                 <form action="https://sendmail.w3layouts.com/submitForm" method="post">
                     <div class="main-input">
                         <div>
-                            <input type="text" name="w3lName" id="w3lName" placeholder="Your Name" class="contact-input"
+                            <input type="text" name="name" id="w3lName" placeholder="Your Name" class="contact-input"
                                 required />
                         </div>
                         <div>
-                            <input type="email" name="w3lSender" id="w3lSender" placeholder="Your Email"
+                            <input type="email" name="email" id="w3lSender" placeholder="Your Email"
                                 class="contact-input" required />
                         </div>
                         <div>
-                            <input type="text" name="w3lSubject" id="w3lSubject" placeholder="Subject" class="contact-input"
+                            <input type="text" name="subject" id="w3lSubject" placeholder="Subject" class="contact-input"
                                 required />
                         </div>
                     </div>
-                    <textarea class="contact-textarea" name="w3lMessage" id="w3lMessage"
+                    <textarea class="contact-textarea" name="message" id="w3lMessage"
                         placeholder="Type your message here" required></textarea>
                     <div class="text-right">
                         <button class="btn btn-style btn-primary">Submit</button>

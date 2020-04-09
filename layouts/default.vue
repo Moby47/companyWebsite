@@ -54,7 +54,7 @@
       <div class="top-footer">
         <div class="container">
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-8">
               <div class="footer-logo mb-3">
                   <nuxt-link  class="navbar-brand" to="/">
                     <span class="fa fa-shield"></span> CohoTek
@@ -68,7 +68,7 @@
               </div>
             </div>
             <!-- Quick Links -->
-            <div class="col-lg-3 col-md-4 mt-lg-0 mt-5">
+            <div class="col-lg-4 col-md-12 mt-lg-0 mt-5">
               <h4 class="footer-title">Quick Links</h4>
               <ul class="footer-list">
                 <li><nuxt-link to="about"> About company</nuxt-link></li>
@@ -77,7 +77,7 @@
                 <li><nuxt-link to="portfolio"> View projects</nuxt-link></li>
               </ul>
             </div>
-            <!-- Newsletter -->
+            <!-- Newsletter 
             <div class="col-lg-5 col-md-8 mt-lg-0 mt-5">
               <h4 class="footer-title">Newsletter</h4>
               <p class="mb-4">By subscribing to our mailing list you will be updated with the latest news from us.
@@ -89,6 +89,7 @@
                 </button>
               </form>
             </div>
+            -->
           </div>
         </div>
       </div>
