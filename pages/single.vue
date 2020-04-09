@@ -10,7 +10,7 @@
     </section>
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb breadcrumb-padding">
-            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+           <li class="breadcrumb-item"><nuxt-link to="/">Home</nuxt-link></li>
             <li class="breadcrumb-item active" aria-current="page">Blog single post</li>
         </ol>
     </nav>
@@ -30,7 +30,7 @@
                         <img src="@/assets/images/single.jpg" class="img-fluid" alt="" />
                         <h4 class="">4 Steps To Consider Before You Start</h4>
                         <h6>February 12, 2020</h6>
-                        <a href="#admin" class="admin">- by Admin</a>
+
                         <p class="mt-4 mb-3">Fusce faucibus ante vitae justo efficitur elementum. Donec et ipsum faucibus
                             arcu
                             ipsum elementum, luctus justo. ac purus semper. Fusce faucibus ante vitae justo efficitur sed et
@@ -38,32 +38,22 @@
                             faucibus arcu elementum, luctus justo. ac purus semper. Fusce faucibus ante vitae justo
                             efficitur
                             elementum. Donec ipsum faucibus arcu...</p>
-                        <p class="mb-3">Fusce faucibus ante vitae justo efficitur elementum. Donec ipsum faucibus arcu
-                            elementum, luctus
-                            justo. ac purus semper. Fusce faucibus ante vitae justo efficitur elementum. Donec ipsum
-                            faucibus
-                            arcu elementum, luctus justo. ac purus semper."</p>
+                      
                         <h5 class="quote">Lorem faucibus ante vitae justo efficitur elementum. Donec ipsum faucibus arcu
                             elementum nec purus quis tempor.</h5>
-                        <p class="mb-3">Lorem faucibus fusce ante vitae justo efficitur elementum. Donec ipsum faucibus arcu
-                            elementum,
-                            luctus
-                            justo. ac purus semper. Fusce faucibus ante vitae justo efficitur elementum. Donec ipsum
-                            faucibus.
-                            Donec ipsum faucibus arcu elementum. Donec ipsum faucibus arcu elementum, luctus justo. ac purus
-                            semper. Fusce faucibus ante vitae justo efficitur elementum. Donec ipsum faucibus arcu
-                            elementum,
-                            luctus justo. ac purus semper.</p>
+                   
                       
-                        <div class="new-posts clearfix">
+                      <!--  <div class="new-posts clearfix">
                             <a class="prev-post pull-left" href="#prev"><span class="fa fa-angle-double-left"></span>
                                 Previous
                                 Post</a>
                             <a class="next-post pull-right" href="#next">Next Post <span
                                     class="fa fa-angle-double-right"></span></a>
                         </div>
-                      
-                        <div class="leave-comment-form" id="comment">
+                      -->
+
+
+                      <!--  <div class="leave-comment-form" id="comment">
                             <h3 class="aside-title">Leave a reply</h3>
                             <form action="#" method="post">
                                 <div class="input-grids">
@@ -85,13 +75,16 @@
                                 </div>
                             </form>
                         </div>
+                        -->
                     </div>
+
+                    <!--
                     <div class="sidebar-side col-lg-4 col-md-12 col-sm-12 mt-lg-0 mt-5">
                         <aside class="sidebar">
 
                           
     
-                            <!--Blog Category Widget-->
+                            <!-Blog Category Widget->
                             <div class="sidebar-widget sidebar-blog-category">
                                 <div class="sidebar-title">
                                     <h4>Categories</h4>
@@ -106,7 +99,7 @@
                          
     
                       
-                            <!-- Tags Widget-->
+                            <!- Tags Widget--
                             <div class="sidebar-widget popular-tags">
                                 <div class="sidebar-title">
                                     <h4>Tags</h4>
@@ -121,6 +114,8 @@
                            
                         </aside>
                     </div>
+                -->
+
                 </div>
             </div>
         </div>

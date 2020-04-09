@@ -52,7 +52,7 @@
   <!-- site footer -->
   <footer id="site-footer">
       <div class="top-footer">
-        <div class="container my-md-5 my-4">
+        <div class="container">
           <div class="row">
             <div class="col-lg-4">
               <div class="footer-logo mb-3">
