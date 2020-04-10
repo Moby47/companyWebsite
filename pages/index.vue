@@ -128,12 +128,12 @@
                                           <span class="fa fa-star"></span>
                                           <span class="fa fa-star"></span>
                                       </div>
-                                      <p>Lorem ipsum dolor, sit amet consect adipis icing elit. Ab commodi iure minus
-                                          placeat quia, animi. Eveniet, iure et. ipsum dolor sed ut init et.</p>
+                                      <p>Fantastic job! i will surely refer a friend to your company.</p>
                                       <div class="customers-bottom_sur">
                                           <div class="custo_grid">
-                                              <h5>Tanguy De</h5>
-                                              <span>link</span>
+                                              <h5>Joe</h5>
+                                              <span><a href='https://carspar.com.ng' target='_blank'>
+                                                carspar.com.ng</a></span>
                                           </div>
                                       </div>
                                   </div>
@@ -141,6 +141,7 @@
                           </div>
                       </div>
                   </div>
+
                   <div class="item">
                       <div class="w3l-customers-7">
                           <div class="customers_sur">
@@ -152,12 +153,12 @@
                                           <span class="fa fa-star"></span>
                                           <span class="fa fa-star"></span>
                                       </div>
-                                      <p>Lorem ipsum dolor, sit amet consect adipis icing elit. Ab commodi iure minus
-                                          placeat quia, animi. Eveniet, iure et. ipsum dolor sed ut init et.</p>
+                                      <p>I love my online shop, thanks Cohotek! keep up the good web developement.</p>
                                       <div class="customers-bottom_sur">
                                           <div class="custo_grid">
-                                              <h5>Christopher</h5>
-                                              <span>Designation</span>
+                                              <h5>Eweje</h5>
+                                              <span><a href='https://habitat.com.ng' target='_blank'>
+                                                habitat.com.ng</a></span>
                                           </div>
                                       </div>
                                   </div>
@@ -165,32 +166,7 @@
                           </div>
                       </div>
                   </div>
-                  <div class="item">
-                      <div class="w3l-customers-7">
-                          <div class="customers_sur">
-                              <div class="customers-left_sur">
-                                  <div class="customers_grid">
-                                     
-                                      <div class="ratings my-4">
-                                          <span class="fa fa-star"></span>
-                                          <span class="fa fa-star"></span>
-                                          <span class="fa fa-star"></span>
-                                          <span class="fa fa-star"></span>
-                                          <span class="fa fa-star"></span>
-                                      </div>
-                                      <p>Lorem ipsum dolor, sit amet consect adipis icing elit. Ab commodi iure minus
-                                          placeat quia, animi. Eveniet, iure et. ipsum dolor sed ut init et.</p>
-                                      <div class="customers-bottom_sur">
-                                          <div class="custo_grid">
-                                              <h5>Edward</h5>
-                                              <span>Designation</span>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
+
                   <div class="item">
                       <div class="w3l-customers-7">
                           <div class="customers_sur">
@@ -201,14 +177,38 @@
                                           <span class="fa fa-star"></span>
                                           <span class="fa fa-star"></span>
                                           <span class="fa fa-star"></span>
-                                          <span class="fa fa-star"></span>
                                       </div>
-                                      <p>Lorem ipsum dolor, sit amet consect adipis icing elit. Ab commodi iure minus
-                                          placeat quia, animi. Eveniet, iure et. ipsum dolor sed ut init et.</p>
+                                      <p>great job! i hope to work with you in the future.</p>
                                       <div class="customers-bottom_sur">
                                           <div class="custo_grid">
-                                              <h5>Abigail</h5>
-                                              <span>Designation</span>
+                                              <h5>Henry</h5>
+                                              <span><a href='https://henrymoby.tech' target='_blank'>
+                                                henrymoby.tech</a></span>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              
+                  <div class="item" >
+                      <div class="w3l-customers-7" >
+                          <div class="customers_sur">
+                              <div class="customers-left_sur">
+                                  <div class="customers_grid">
+                                      <div class="ratings my-4">
+                                          <span class="fa fa-star"></span>
+                                          <span class="fa fa-star"></span>
+                                          <span class="fa fa-star"></span>
+                                          <span class="fa fa-star"></span>
+                                      </div>
+                                      <p>Amazing customer service! thanks Cohotek.</p>
+                                      <div class="customers-bottom_sur">
+                                          <div class="custo_grid">
+                                              <h5>Ebele</h5>
+                                              <span><a href='https://mylingualink.com' target='_blank'>
+                                                mylingualink.com</a></span>
                                           </div>
                                       </div>
                                   </div>
@@ -237,7 +237,7 @@
                           <div class="icon">
                               <span class="fa fa-folder-open-o"></span>
                           </div>
-                          <p class="value">15</p>
+                          <p class="value">{{projectCount}}</p>
                           <p class="title white">Projects</p>
                       </div>
                       <div class="counter">
@@ -269,42 +269,43 @@
                   <h4 class="section-title">Our Blog</h4>
                   <p class="text-center">Stay informed. Technology made simple.</p>
               </div>
+              
           </div>
+
+          <div class="text-center" v-show='loading'>
+          <v-progress-circular
+            indeterminate
+            color="primary"
+          ></v-progress-circular>
+                </div>
+
+                <div class="text-center" v-show='err'>
+                  Network error. Please reload.
+                </div>
+          
           <div class="blog-grids row mt-5">
-              <div class="col-lg-4 col-md-6 col-sm-12 blog-grid" id="zoomIn">
-                  <a href="#blog-single.html">
-                      <figure><img src="@/assets/images/blog.jpg" class="img-fluid" alt=""></figure>
-                  </a>
+              <div class="col-lg-4 col-md-6 col-sm-12 blog-grid" id="zoomIn" v-for='post in posts' v-bind:key='post.id'>
+                  <nuxt-link :to="'post/'+post.id+'/'+post.title_slug">
+   <figure><img :src="'https://cohotekapi.henrymoby.tech/storage/blog/'+post.image_name"
+    class="img-fluid custom-height" :alt="post.title"></figure>
+                  </nuxt-link>
                   <div class="blog-info">
-                      <h3><a href="#blog-single.html">4 Steps To Consider Before You Start</a> </h3>
+                      <h3><nuxt-link :to="'post/'+post.id+'/'+post.title_slug">
+                        {{post.title}}
+                      </nuxt-link> </h3>
                       <ul>
-                       <li><span class="fa fa-calendar mr-2"></span>Jan 16, 2020</li>
+                       <li><span class="fa fa-calendar mr-2"></span>{{post.created_at}}</li>
                       </ul>
                   </div>
               </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 mt-md-0 mt-4 blog-grid" id="zoomIn">
-                  <a href="#blog-single.html">
-                      <figure><img src="@/assets/images/blog1.jpg" class="img-fluid" alt=""></figure>
-                  </a>
-                  <div class="blog-info">
-                      <h3><a href="#blog-single.html">Strategic Plan Execution Management</a> </h3>
-                      <ul>
-                         <li><span class="fa fa-calendar mr-2"></span>Jan 19, 2020</li>
-                      </ul>
-                  </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-4 blog-grid" id="zoomIn">
-                  <a href="#blog-single.html">
-                      <figure><img src="@/assets/images/blog2.jpg" class="img-fluid" alt=""></figure>
-                  </a>
-                  <div class="blog-info">
-                      <h3><a href="#blog-single.html">Business planning, strategy and execution</a> </h3>
-                      <ul>
-                         <li><span class="fa fa-calendar mr-2"></span>Jan 21, 2020</li>
-                      </ul>
-                  </div>
-              </div>
+              
+
+              
           </div>
+
+          <p class='text-center'>
+              <nuxt-link to='blog' class="btn btn-primary btn-style mt-2 text-center">View More</nuxt-link>
+                        </p>
       </div>
   </section>
   <!-- //homepage blog grids -->
@@ -322,8 +323,72 @@
 
 export default {
   
+  data () {
+
+    return {
+    projectCount: '-',
+    posts:[],
+    loading: true,
+    err: false,
+    }
+    
+  },
+
+  methods: {
+
+  getProjectCount(){
+      fetch('https://cohotekapi.henrymoby.tech/api/project-count', {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Authorization': 'w69D58JnTvtUCH3KHcfhSGNIO7NtLuJEAF7ixJDwSHCGiTpdLUWdhvROVWt8TaUf'
+      }
+    })
+      .then(res => res.json())
+      .then(res=>{
+        this.projectCount = res;
+        console.log(res)
+      })
+      .catch(error =>{
+        console.log(error)
+        this.projectCount = '-';      
+          })
+  },
+  //method end
+
+
+  getPosts(){
+      fetch('https://cohotekapi.henrymoby.tech/api/posts', {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Authorization': 'w69D58JnTvtUCH3KHcfhSGNIO7NtLuJEAF7ixJDwSHCGiTpdLUWdhvROVWt8TaUf'
+      }
+    })
+      .then(res => res.json())
+      .then(res=>{
+        this.posts = res.data;
+        console.log(this.posts)
+        this.loading = false
+      })
+      .catch(error =>{
+        console.log(error)  
+        this.loading = false    
+        this.err = true
+          })
+  },
+  //method end
+
+  },
+
   mounted() {
   
+  // get project count
+  this.getProjectCount()
+
+  //get blog posts
+  this.getPosts()
+
       /*===================================*
 	02. BACKGROUND ANIMATION JS
 	*===================================*/

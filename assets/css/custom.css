@@ -69,3 +69,7 @@
   .custom-hover:hover{
     background-color: #0c3866;
   }
+
+  .custom-height{
+    height: 250px !important;
+  }
