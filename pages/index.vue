@@ -20,8 +20,8 @@
                     company or struggle to find their 
                     way around your website – you are losing money.</p>
                   <div class="mt-5">
-             <nuxt-link class="btn btn-primary btn-style mr-2 text-white" to="about">Read More </nuxt-link>
-          <nuxt-link class="btn btn-outline btn-outline-style text-white custom-hover" to="services">Our Services </nuxt-link>
+             <nuxt-link class="btn btn-primary btn-style mr-2 text-white" to="/about">Read More </nuxt-link>
+          <nuxt-link class="btn btn-outline btn-outline-style text-white custom-hover" to="/services">Our Services </nuxt-link>
                   </div>
               </div>
               <div class="col-lg-5 col-md-12 col-sm-12 order-first text-lg-left text-center">

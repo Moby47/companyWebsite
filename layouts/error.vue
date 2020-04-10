@@ -19,7 +19,8 @@
                             <h4 class="section-title" v-if="error.statusCode === 404">
                                 {{ pageNotFound }}</h4>
                             <p class="text-center" v-else>
-                                {{ otherError }}
+                                {{ otherError }} <br>
+                                <a href='/'>Home</a>
                               </p>
                         </div>
                     </div>

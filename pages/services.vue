@@ -32,7 +32,7 @@
                         <p class="text-para">Our team use the best web development tools in crafting beautiful 
                                 websites using modern technologies. We build websites that are sleek, 
                                 responsive, eye-catching, easy to use and dynamic, to attract visitors and persuade them to buy. </p>
-                                <nuxt-link to="porfolio" class="btn btn-primary btn-style mt-4">Our Works</nuxt-link>
+                                <nuxt-link to="/portfolio" class="btn btn-primary btn-style mt-4">Our Works</nuxt-link>
                     </div>
                     <div class="col-lg-6 feature-grid-right order1">
                         <img src="@/assets/images/cohotek-it-company-web-development.png" class="img-fluid img-shadow" alt="services">
@@ -48,7 +48,7 @@
                                 and applications ranging from microsoft office, web design and development, ICT fundamentals and more.
                                  We also provide professional ICT advises and consultancy
                                  services for small, medium and large scale businesses. </p>
-                        <nuxt-link to="contact" class="btn btn-primary btn-style mt-4">Contact Us</nuxt-link>
+                        <nuxt-link to="/contact" class="btn btn-primary btn-style mt-4">Contact Us</nuxt-link>
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@
                             <li><span class="fa fa-check"></span> We provide digital marketing</li>
                             <li><span class="fa fa-check"></span> We provide quality support and maintenance</li>
                         </ul>
-                        <nuxt-link to="contact" class="btn btn-primary btn-style mt-4">Contact Us</nuxt-link>
+                        <nuxt-link to="/contact" class="btn btn-primary btn-style mt-4">Contact Us</nuxt-link>
                     </div>
                     <div class="col-lg-6 feature-grid-right mt-lg-0 mt-5">
                         <div class="call-grids-w3 d-grid">

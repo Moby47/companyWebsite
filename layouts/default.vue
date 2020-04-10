@@ -20,19 +20,19 @@
          <nuxt-link  class="nav-link" to="/">Home <span class="sr-only">(current)</span></nuxt-link >
                 </li>
                 <li class="nav-item">
-                    <nuxt-link class="nav-link" to="about">About</nuxt-link>
+                    <nuxt-link class="nav-link" to="/about">About</nuxt-link>
                 </li>
                 <li class="nav-item">
-                    <nuxt-link class="nav-link" to="services">Services</nuxt-link>
+                    <nuxt-link class="nav-link" to="/services">Services</nuxt-link>
                 </li>
                 <li class="nav-item">
-                  <nuxt-link class="nav-link" to="portfolio">portfolio</nuxt-link>
+                  <nuxt-link class="nav-link" to="/portfolio">portfolio</nuxt-link>
               </li>
               <li class="nav-item">
-                  <nuxt-link class="nav-link" to="blog">blog</nuxt-link>
+                  <nuxt-link class="nav-link" to="/blog">blog</nuxt-link>
               </li>
                 <li class="nav-item">
-                    <nuxt-link class="nav-link" to="contact">Contact</nuxt-link>
+                    <nuxt-link class="nav-link" to="/contact">Contact</nuxt-link>
                 </li>
             </ul>
           <!--  <ul class="navbar-nav">
@@ -71,10 +71,10 @@
             <div class="col-lg-4 col-md-12 mt-lg-0 mt-5">
               <h4 class="footer-title">Quick Links</h4>
               <ul class="footer-list">
-                <li><nuxt-link to="about"> About company</nuxt-link></li>
-                <li><nuxt-link to="services"> Explore services</nuxt-link></li>
-                <li><nuxt-link to="contact"> Contact us?</nuxt-link></li>
-                <li><nuxt-link to="portfolio"> View projects</nuxt-link></li>
+                <li><nuxt-link to="/about"> About company</nuxt-link></li>
+                <li><nuxt-link to="/services"> Explore services</nuxt-link></li>
+                <li><nuxt-link to="/contact"> Contact us?</nuxt-link></li>
+                <li><nuxt-link to="/portfolio"> View projects</nuxt-link></li>
               </ul>
             </div>
             <!-- Newsletter 
