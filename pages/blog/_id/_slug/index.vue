@@ -24,24 +24,39 @@
     <!-- single post -->
     <section class="text-11">
         <div class="text11">
+
+                <div class="text-center" v-show='loading'>
+                        <v-progress-circular
+                          indeterminate
+                          color="primary"
+                        ></v-progress-circular>
+                              </div>
+              
+                <div class="text-center" v-show='err'>
+                        Network error. Please reload.
+                      </div>
+                      
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 text11-content">
-                        <img src="@/assets/images/single.jpg" class="img-fluid" alt="" />
-                        <h4 class="">4 Steps To Consider Before You Start</h4>
-                        <h6>February 12, 2020</h6>
+               <img :src="'https://cohotekapi.henrymoby.tech/storage/blog/'+post.image_name"
+               class="img-fluid custom-height2" :alt="post.title" />
+               <div class="blog-info">
+                    <h3>
+                      {{post.title}}
+                  </h3>
+                    <ul>
+                     <li><span class="fa fa-calendar mr-2"></span>{{post.created_at}}</li>
+                            </ul>
+                        </div>
 
-                        <p class="mt-4 mb-3">Fusce faucibus ante vitae justo efficitur elementum. Donec et ipsum faucibus
-                            arcu
-                            ipsum elementum, luctus justo. ac purus semper. Fusce faucibus ante vitae justo efficitur sed et
-                            elementum. Donec ipsum
-                            faucibus arcu elementum, luctus justo. ac purus semper. Fusce faucibus ante vitae justo
-                            efficitur
-                            elementum. Donec ipsum faucibus arcu...</p>
+                        <p class="mt-4 mb-3 jumbotron" v-html='post.description'>
+                    
+                        </p>
                       
-                        <h5 class="quote">Lorem faucibus ante vitae justo efficitur elementum. Donec ipsum faucibus arcu
+                      <!--  <h5 class="quote">Lorem faucibus ante vitae justo efficitur elementum. Donec ipsum faucibus arcu
                             elementum nec purus quis tempor.</h5>
-                   
+                   -->
                       
                       <!--  <div class="new-posts clearfix">
                             <a class="prev-post pull-left" href="#prev"><span class="fa fa-angle-double-left"></span>
@@ -132,20 +147,57 @@
         </template>
         
         <script>
-        //import Logo from '~/components/Logo.vue'
-        //import VuetifyLogo from '~/components/VuetifyLogo.vue'
-        
+      
         export default {
           
+            data () {
+                return {
+                post:[],
+                err: false,
+                loading: true,
+                }
+              },
+              
+            methods:{
+
+              //fetch post
+              getPost(){
+               // this.$nuxt.$loading.start()
+             var  page = 'https://cohotekapi.henrymoby.tech/api/posts/'+this.$route.params.id+'/'+this.$route.params.slug;
+          
+                    fetch(page, {
+                    method: 'GET',
+                    headers: {
+                    'Content-Type': 'application/json',
+                    'X-Authorization': 'w69D58JnTvtUCH3KHcfhSGNIO7NtLuJEAF7ixJDwSHCGiTpdLUWdhvROVWt8TaUf'
+                    }
+                    })
+                    .then(res => res.json())
+                    .then(res=>{
+                      this.post = res.data;
+                      console.log(this.post)
+                      //  this.$nuxt.$loading.finish()
+                      this.loading = false
+                    })
+                    .catch(error =>{
+                        console.log(error)  
+                  //  this.$nuxt.$loading.finish()
+                  this.loading = false
+                    this.err = true
+                    })
+                  },
+
+            },
+
           mounted(){
             //collapse nav on component load
             $('#navbarNav').hide('fade');
+
+            //get post
+            this.getPost()
           },
           
-          components: {
-          //  Logo,
-          //  VuetifyLogo
-          }
+         
         }
         </script>
         

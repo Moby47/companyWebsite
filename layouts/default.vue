@@ -128,7 +128,7 @@ export default {
 
   head () {
     return {
-      script: [
+     /* script: [
       { src: 'js/jquery-3.3.1.min.js' },
       { src: 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' },
       { src: 'js/particles.min.js' },
@@ -136,7 +136,7 @@ export default {
       { src: 'js/lightbox-plus-jquery.min.js' },
       { src: 'js/custom.js' },
       { src: 'js/owl.carousel.js' },
-      ]
+      ]*/
     }
   },
 

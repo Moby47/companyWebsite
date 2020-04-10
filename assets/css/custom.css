@@ -52,7 +52,7 @@
   }
 */
 
-/*pc - hide img on mobile view*/ 
+/*mobile view - hide img*/ 
 @media(max-width:1024px) {
    
 	.hide-mobile{
@@ -61,6 +61,16 @@
 
   }
 
+  /*pc view - reduce height*/ 
+  @media(min-width:1024px) {
+   
+    .custom-height2{
+      height: 450px !important;
+    }
+  
+    }
+  
+ 
 
   .custom-margin{
     margin-top:-45px;
@@ -73,6 +83,7 @@
   .custom-height{
     height: 250px !important;
   }
+
 
   .custom-alert{background-color:#2e9cca;color:white;display:inline-block;padding:4px;margin-top:-20px;
     margin-bottom:10px; border-radius: 5px;}
