@@ -49,8 +49,8 @@
                                 </div>
                                 <div>
                                     <strong class="info">Phone:</strong class="info">
-                                        <a href="tel:+2348035562231"> Phone Number 1</a> ,
-                                    <a href="tel:+2348035000000"> Phone Number 2</a>
+                                        <a href="tel:+2348035562231"> +2348035562231</a> ,
+                                    <a href="tel:+2347069685282"> +2347069685282</a>
                                 </div>
                             </div>
                             <div class="contact-info-align">
@@ -92,25 +92,37 @@
                     <h4 class="section-title">we want to here from you</h4>
                 </div>
                 <!-- contact form -->
-                <form action="https://sendmail.w3layouts.com/submitForm" method="post">
+                <form action="#" method="post">
                     <div class="main-input">
                         <div>
                             <input type="text" name="name" id="w3lName" placeholder="Your Name" class="contact-input"
-                                required />
+                                required v-model='name' v-validate='"required|max:49"'/>
+                                <transition  name="fadeLeft">
+                 <span class='custom-alert' v-show="errors.has('name')">{{ errors.first('name') }}</span>
+                                </transition> 
                         </div>
                         <div>
-                            <input type="email" name="email" id="w3lSender" placeholder="Your Email"
-                                class="contact-input" required />
+                            <input type="email" name="email" v-validate='"required|email"' id="w3lSender" placeholder="Your Email"
+                                class="contact-input" required v-model='email' />
+                                <transition  name="fadeLeft">
+                                        <span class='custom-alert' v-show="errors.has('email')">{{ errors.first('email') }}</span>
+                                       </transition> 
                         </div>
                         <div>
-                            <input type="text" name="subject" id="w3lSubject" placeholder="Subject" class="contact-input"
-                                required />
+                            <input type="text" name="subject" v-validate='"required|max:50"' id="w3lSubject" placeholder="Subject" class="contact-input"
+                            v-model='subject' required />
+                            <transition name="fadeLeft">
+                                    <span class='custom-alert' v-show="errors.has('subject')">{{ errors.first('subject') }}</span>
+                                   </transition> 
                         </div>
                     </div>
-                    <textarea class="contact-textarea" name="message" id="w3lMessage"
+                    <textarea class="contact-textarea" v-validate='"required|max:254"' name="message" id="w3lMessage" v-model='message'
                         placeholder="Type your message here" required></textarea>
+                        <transition name="fadeLeft">
+                                <span class='custom-alert' v-show="errors.has('message')">{{ errors.first('message') }}</span>
+                               </transition> 	
                     <div class="text-right">
-                        <button class="btn btn-style btn-primary">Submit</button>
+                        <button class="btn btn-style btn-primary" @click.prevent='contact()'>Submit</button>
                     </div>
                 </form>
                 <!-- //contact form -->
@@ -125,11 +137,81 @@
         </template>
         
         <script>
-        //import Logo from '~/components/Logo.vue'
+
+       import axios from 'axios'
         //import VuetifyLogo from '~/components/VuetifyLogo.vue'
         
         export default {
           
+            data(){
+			return{
+				name: '',
+				email: '',
+				subject: '',
+				message: '',
+			}
+		},
+        
+          methods: {
+
+            contact(){
+
+			 //validate
+             this.$validator.validateAll().then(() => {
+           
+           if (!this.errors.any()) {
+                  //if no error
+                  this.$nuxt.$loading.start()
+     
+                 // instantiant formdata object
+            const formdata  = new FormData();
+         //append form data to formdata
+         formdata.append('name',  this.name);
+         formdata.append('email', this.email);
+         formdata.append('subject', this.subject);
+         formdata.append('message', this.message);
+         
+         //send to database with axios
+         console.log(formdata)
+     
+         axios.post('https://cohotekapi.henrymoby.tech/api/contact',formdata)
+         .then(res=>{
+       if(res.data == 'ok'){
+         this.$nuxt.$loading.finish()
+         alert("Thank you! You will be contacted shortly.");
+         
+          //clear form
+          this.name = '';
+         this.email ='';
+         this.subject= '';
+         this.message= '';
+         //clear form and errorbag
+         setTimeout(func=>{
+             this.errors.clear()
+         },1) 
+      
+       }else{
+         this.$nuxt.$loading.finish()
+         alert("An Error Occured, Please call +2348035562231 or send an email to support@cohotek.tech");
+       }
+     
+       })
+       .catch(err=>{
+           console.log(err)
+           this.$nuxt.$loading.finish()
+       })
+     
+        
+          }else{
+            //error occured and was shown
+          }
+         
+         }); //validator
+
+        }//method end
+
+          },
+
           mounted(){
             //collapse nav on component load
             $('#navbarNav').hide('fade');

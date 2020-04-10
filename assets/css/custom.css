@@ -73,3 +73,6 @@
   .custom-height{
     height: 250px !important;
   }
+
+  .custom-alert{background-color:#2e9cca;color:white;display:inline-block;padding:4px;margin-top:-20px;
+    margin-bottom:10px; border-radius: 5px;}

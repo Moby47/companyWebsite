@@ -56,8 +56,17 @@ export default {
   /*
   ** Nuxt.js modules
   */
-  modules: [
-  ],
+ modules: [
+  '@nuxtjs/axios',
+  ['nuxt-validate', {
+    lang: 'en',
+    // regular vee-validate options
+  }],
+],
+
+axios: {
+  // proxyHeaders: false
+},
   /*
   ** vuetify module configuration
   ** https://github.com/nuxt-community/vuetify-module
