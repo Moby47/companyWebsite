@@ -45,12 +45,12 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-4 blog-grid" id="zoomIn"
                 v-for='proj in projects' v-bind:key='proj.id'>
 
-                    <a :href="proj.url">
+                    <a :href="proj.url" target='_blank'>
                         <figure><img :src="'https://cohotekapi.henrymoby.tech/storage/project/'+proj.image_name"
                              class="img-fluid custom-height" :alt="proj.name"></figure>
                     </a>
                     <div class="blog-info">
-                        <h3><a :href="proj.url">{{proj.name}}</a> </h3>
+                        <h3><a :href="proj.url" target='_blank'>{{proj.name}}</a> </h3>
                         
                     </div>
                 </div>
