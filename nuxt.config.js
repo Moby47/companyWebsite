@@ -30,7 +30,7 @@ export default {
      { rel: 'apple-touch-icon', sizes: '180x180', href: '/favicons/apple-touch-icon.png' },
      { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicons/favicon-32x32.png' },
      { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicons/favicon-16x16.png' },
-     { rel: 'manifest', href: '/favicons/site.webmanifest' },
+     //{ rel: 'manifest', href: '/favicons/site.webmanifest' },
       {
         rel: 'stylesheet',
         href:
@@ -73,11 +73,36 @@ export default {
     lang: 'en',
     // regular vee-validate options
   }],
+  '@nuxtjs/pwa',
 ],
 
 axios: {
   // proxyHeaders: false
 },
+
+manifest: {
+  name: "Cohotek",
+  short_name: "Cohotek",
+ // start_url: "/",
+ // scope: "/",
+ // display: "standalone",
+  orientation: "portrait-primary",
+ // background_color: "#ffffff",
+ // theme_color: "#123c69",
+  description: "Cohotek IT company in Lagos Nigeria",
+  dir: "ltr",
+ // lang: "en-US",
+},
+
+
+/*
+workbox: {
+    importScripts: [
+        'custom-sw.js'
+    ],
+  },
+*/
+
   /*
   ** vuetify module configuration
   ** https://github.com/nuxt-community/vuetify-module
