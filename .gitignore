@@ -10,6 +10,9 @@ yarn-error.log*
 #service worker
 sw.*
 
+#one signal
+OneSignalSDK*
+
 # Runtime data
 pids
 *.pid

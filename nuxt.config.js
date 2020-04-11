@@ -73,8 +73,21 @@ export default {
     lang: 'en',
     // regular vee-validate options
   }],
+  '@nuxtjs/onesignal',
   '@nuxtjs/pwa',
 ],
+
+
+// Options
+oneSignal: {
+  init: {
+    appId: '816cb025-676b-451b-9404-4e78b3d544d5',
+    allowLocalhostAsSecureOrigin: true,
+    welcomeNotification: {
+        disable: true
+    }
+  }
+},
 
 axios: {
   // proxyHeaders: false

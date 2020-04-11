@@ -139,8 +139,6 @@
         <script>
 
        import axios from 'axios'
-        //import VuetifyLogo from '~/components/VuetifyLogo.vue'
-        
         export default {
           
             head(){
