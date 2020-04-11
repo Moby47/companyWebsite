@@ -81,7 +81,7 @@
 
                   </div>
                   <div class="col-lg-4 mobile-left">
-                      <img src="@/assets/images/cohotek-it-company-services.png" class="img-fluid" alt="">
+                      <img src="@/assets/images/cohotek-it-company-services.png" class="img-fluid" alt="cohotek web development company in lagos">
                   </div>
                   <div class="col-lg-4 mobile-right">
                       <div class="row mobile-right-grids mb-lg-5 mb-4">
@@ -238,6 +238,18 @@
     
     export default {
       
+        head(){
+    return {
+      title: "About the Best Web Development Company in Lagos",
+      meta:[
+        
+          { hid: 'description6', name: 'description', content: 'Cohotek IT company in Lagos Nigeria delivers innovative custom web designs, web development and digital marketing services.' },
+          { name: 'keywords', content: 'digital marketing, seo, web development in lagos, cohotek, it company, it firm, website, web design, web application, web, web development, wordpress, php, html, web instructor, developer, porfolio, henry onyemaobi,website instructor, website teacher' },
+        
+      ]
+    }
+  },
+
       mounted(){
         //collapse nav on component load
         $('#navbarNav').hide('fade');

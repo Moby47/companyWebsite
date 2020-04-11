@@ -124,7 +124,7 @@
                 </div>
                 <div class="row mobile-info-inn mx-lg-0 mt-md-5 mt-4">
                     <div class="col-lg-6 image-left">
-                        <img src="@/assets/images/cohotek-it-comapny-services.png" class="img-fluid" alt="">
+                        <img src="@/assets/images/cohotek-it-comapny-services.png" class="img-fluid" alt="cohotek web development company in lagos">
                     </div>
                     <div class="col-lg-6 mobile-right mt-lg-0 mt-5">
                         <div class="row mobile-right-grids mb-lg-5 mb-4">
@@ -185,6 +185,18 @@
         
         export default {
           
+            head(){
+    return {
+      title: "ICT services offered by us",
+      meta:[
+        
+          { hid: 'description6', name: 'description', content: 'Cohotek IT company in Lagos Nigeria delivers innovative custom web designs, web development and digital marketing services.' },
+          { name: 'keywords', content: 'IT services, digital marketing, seo, web development in lagos, cohotek, it company, it firm, website, web design, web application, web, web development, wordpress, php, html, web instructor, developer, porfolio, henry onyemaobi,website instructor, website teacher' },
+        
+      ]
+    }
+  },
+
           mounted(){
             //collapse nav on component load
             $('#navbarNav').hide('fade');

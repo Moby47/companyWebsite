@@ -322,6 +322,18 @@
 //import VuetifyLogo from '~/components/VuetifyLogo.vue'
 
 export default {
+
+  head(){
+    return {
+      title: "Web Development IT Company in Lagos Nigeria",
+      meta:[
+        
+          { hid: 'description6', name: 'description', content: 'Cohotek IT company in Lagos Nigeria delivers innovative custom web designs, web development and digital marketing services.' },
+          { name: 'keywords', content: 'web development in lagos, digital marketing, seo, cohotek, it company, it firm, website, web design, web application, web, web development, wordpress, php, html, web instructor, developer, porfolio, henry onyemaobi,website instructor, website teacher' },
+        
+      ]
+    }
+  },
   
   data () {
 

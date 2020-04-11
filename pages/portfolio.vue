@@ -94,7 +94,18 @@
         
         export default {
           
-          
+          head(){
+    return {
+      title: "Web Development Portfolio",
+      meta:[
+        
+          { hid: 'description6', name: 'description', content: 'Cohotek IT company in Lagos Nigeria delivers innovative custom web designs, web development and digital marketing services.' },
+          { name: 'keywords', content: 'digital marketing, seo, web development in lagos, cohotek, it company, it firm, website, web design, web application, web, web development, wordpress, php, html, web instructor, developer, porfolio, henry onyemaobi,website instructor, website teacher' },
+        
+      ]
+    }
+  },
+
   data () {
 
 return {
