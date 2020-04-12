@@ -2,6 +2,9 @@ import colors from 'vuetify/es5/util/colors'
 
 module.exports = {
   mode: 'universal',
+  server: {
+    host: '0.0.0.0'
+  },
   /*
   ** Headers of the page
   */
