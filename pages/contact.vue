@@ -39,7 +39,7 @@
                                     <span class="fa fa-map-marker"></span>
                                 </div>
                                <div>
-                                    <strong class="info">Address:</strong class="info">
+                                    <strong class="info">Address:</strong>
                                          No 17 A. Ozumba Mbadiwe. Victoria Island
                                 </div>
                             </div>
@@ -48,7 +48,7 @@
                                     <span class="fa fa-phone"></span>
                                 </div>
                                 <div>
-                                    <strong class="info">Phone:</strong class="info">
+                                    <strong class="info">Phone:</strong>
                                         <a href="tel:+2348035562231"> +2348035562231</a> ,
                                     <a href="tel:+2347069685282"> +2347069685282</a>
                                 </div>
@@ -89,7 +89,7 @@
         <div class="container">
             <div class="contacts12-main">
                 <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12 mb-md-5 mb-3">
-                    <h4 class="section-title">we want to here from you</h4>
+                    <h4 class="section-title">we want to hear from you</h4>
                 </div>
                 <!-- contact form -->
                 <form action="#" method="post">
@@ -184,7 +184,7 @@
          //send to database with axios
          console.log(formdata)
      
-         axios.post('https://cohotekapi.henrymoby.tech/api/contact',formdata)
+         axios.post('https://cohotekapi.getfoods.ng/api/contact',formdata)
          .then(res=>{
        if(res.data == 'ok'){
          this.$nuxt.$loading.finish()

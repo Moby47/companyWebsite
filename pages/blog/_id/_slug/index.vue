@@ -39,7 +39,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 text11-content">
-               <img :src="'https://cohotekapi.henrymoby.tech/storage/blog/'+post.image_name"
+               <img :src="'https://cohotekapi.getfoods.ng/storage/blog/'+post.image_name"
                class="img-fluid custom-height2" :alt="post.title" />
                <div class="blog-info">
                     <h3>
@@ -174,7 +174,7 @@
               //fetch post
               getPost(){
                // this.$nuxt.$loading.start()
-             var  page = 'https://cohotekapi.henrymoby.tech/api/posts/'+this.$route.params.id+'/'+this.$route.params.slug;
+             var  page = 'https://cohotekapi.getfoods.ng/api/posts/'+this.$route.params.id+'/'+this.$route.params.slug;
           
                     fetch(page, {
                     method: 'GET',

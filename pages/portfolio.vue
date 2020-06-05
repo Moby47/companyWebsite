@@ -46,7 +46,7 @@
                 v-for='proj in projects' v-bind:key='proj.id'>
 
                     <a :href="proj.url" target='_blank'>
-                        <figure><img :src="'https://cohotekapi.henrymoby.tech/storage/project/'+proj.image_name"
+                        <figure><img :src="'https://cohotekapi.getfoods.ng/storage/project/'+proj.image_name"
                              class="img-fluid custom-height" :alt="proj.name"></figure>
                     </a>
                     <div class="blog-info">
@@ -124,7 +124,7 @@ getProjects(page_url){
     if(page_url){
      this.$nuxt.$loading.start()
     }
-    var   page_url = page_url || 'https://cohotekapi.henrymoby.tech/api/projects';
+    var   page_url = page_url || 'https://cohotekapi.getfoods.ng/api/projects';
 
   fetch(page_url, {
   method: 'GET',
