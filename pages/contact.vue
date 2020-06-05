@@ -59,8 +59,8 @@
                                 </div>
                                 <div>
                                     <strong class="info">Email:</strong> 
-                                    <a href="mailto:support@cohotek.tech">
-                                        support@cohotek.tech</a>
+                                    <a href="mailto:henryonyemaobi@gmail.com">
+                                        henryonyemaobi@gmail.com</a>
                                 </div>
                             </div>
                         </div>
