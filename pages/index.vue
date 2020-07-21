@@ -244,14 +244,14 @@
                           <div class="icon">
                               <span class="fa fa-headphones"></span>
                           </div>
-                          <p class="value">12</p>
+                          <p class="value">32</p>
                           <p class="title white">Consultant</p>
                       </div>
                       <div class="counter">
                           <div class="icon">
                               <span class="fa fa-trophy"></span>
                           </div>
-                          <p class="value">10</p>
+                          <p class="value">11</p>
                           <p class="title white">Awards</p>
                       </div>
                   </div>
