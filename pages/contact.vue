@@ -40,7 +40,8 @@
                                 </div>
                                <div>
                                     <strong class="info">Address:</strong>
-                                         No 17 A. Ozumba Mbadiwe. Victoria Island
+                                       <!--  No 17 A. Ozumba Mbadiwe. Victoria Island-->
+                                       Anthony Agodi House 76, Mobolaji Bank-Anthony Way Ikeja, Lagos Nigeria (NG)
                                 </div>
                             </div>
                             <div class="contact-info-align">
@@ -49,6 +50,7 @@
                                 </div>
                                 <div>
                                     <strong class="info">Phone:</strong>
+                                    <a href="tel:+2348074247448"> +2348074247448</a> ,
                                         <a href="tel:+2348035562231"> +2348035562231</a> ,
                                     <a href="tel:+2347069685282"> +2347069685282</a>
                                 </div>
@@ -59,8 +61,10 @@
                                 </div>
                                 <div>
                                     <strong class="info">Email:</strong> 
-                                    <a href="mailto:henryonyemaobi@gmail.com">
-                                        henryonyemaobi@gmail.com</a>
+                                    <a href="mailto:oairhunde@gmail.com">
+                                        oairhunde@gmail.com</a>
+                                        <!--<a href="mailto:henryonyemaobi@gmail.com">
+                                        henryonyemaobi@gmail.com</a>-->
                                 </div>
                             </div>
                         </div>
