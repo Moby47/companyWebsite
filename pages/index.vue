@@ -153,7 +153,7 @@
                                           <span class="fa fa-star"></span>
                                           <span class="fa fa-star"></span>
                                       </div>
-                                      <p>I love my online shop, thanks Cohotek! keep up the good web developement.</p>
+                                      <p>I love my online shop, thanks Cohotek! keep up the good work.</p>
                                       <div class="customers-bottom_sur">
                                           <div class="custo_grid">
                                               <h5>Eweje</h5>
