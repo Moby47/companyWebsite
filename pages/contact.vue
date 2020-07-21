@@ -31,7 +31,7 @@
                             <p class="head-main">For more information or inquiry
                                  about our services, projects and pricing
                                 please feel free to
-                                get in touch with us.</p>
+                                get in touch with us or call our technical lead directly: <b> <a href='tel:+2348074247448' style='text-decoration:underline;'> Oghogho Airhunde</a></b> </p>
                         </div>
                         <div class="column2">
                             <div class="contact-para contact-info-align">
