@@ -80,7 +80,7 @@
                     <!-- map iframe-->
                     <div class="col-md-6 map mt-lg-0 mt-4">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.6589273286695!2d3.4100281147702547!3d6.437831895342325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8ad63435c713%3A0xe1a93bf07adefdb6!2sThe%20Wings%20Complex!5e0!3m2!1sen!2sng!4v1586457537768!5m2!1sen!2sng"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.577991062897!2d3.359895315250994!3d6.574822324387489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9273addad1a5%3A0xc8ef2f44fd3bb3e2!2s76%20Mobolaji%20Bank%20Anthony%20Way%2C%20Ikeja%20GRA%20100271%2C%20Ikeja%2C%20Nigeria!5e0!3m2!1sen!2sus!4v1595325571328!5m2!1sen!2sus"
                             frameborder="0" style="border:0" allowfullscreen=""></iframe>
                     </div>
                     <!-- //map iframe -->
