@@ -55,13 +55,17 @@
                       <div class="row mobile-right-grids mb-lg-5 mb-4">
                           <div class="col-2 mobile-right-icon">
                               <div class="mobile-icon">
-                                  <span class="fa fa-rocket"></span>
+                                  <span class="fa fa-windows"></span>
                               </div>
                           </div>
                           <div class="col-10 mobile-right-info">
-                              <h6><a href="#cohotek IT company">For Startups</a></h6>
+                             <!-- <h6><a href="#cohotek IT company">For Startups</a></h6>
                               <p>Cohotek will conduct in-depth market research on your field and
                                     the demographics of your potential clients using search engine optimization (SEO) and public data.
+                                    </p>-->
+                                   <h6><a href="#cohotek IT company">Office 365</a></h6>
+                              <p>Our experts can answer questions, provide more information, and help you 
+                                  understand what Office 365 can do for your business.
                                     </p>
                           </div>
                       </div>

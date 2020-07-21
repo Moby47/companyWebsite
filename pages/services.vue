@@ -43,9 +43,15 @@
                         <img src="@/assets/images/cohotek-it-company-training.png" class="img-fluid img-shadow" alt="services">
                     </div>
                     <div class="col-lg-6 feature-grid-left mt-lg-0 mt-sm-5 mt-4">
-                        <h4 class="title-left">ICT Training and Consultancy</h4>
+                     <!--   <h4 class="title-left">ICT Training and Consultancy</h4>
                         <p class="text-para">We train people on different ICT packages 
                                 and applications ranging from microsoft office, web design and development, ICT fundamentals and more.
+                                 We also provide professional ICT advises and consultancy
+                                 services for small, medium and large scale businesses. </p>
+                        <nuxt-link to="/contact" class="btn btn-primary btn-style mt-4">Contact Us</nuxt-link>-->
+                        <h4 class="title-left">ICT Training, Consultancy and Office 365</h4>
+                        <p class="text-para">We train people on different ICT packages 
+                                and applications ranging from microsoft office 365, web design and development, ICT fundamentals and more.
                                  We also provide professional ICT advises and consultancy
                                  services for small, medium and large scale businesses. </p>
                         <nuxt-link to="/contact" class="btn btn-primary btn-style mt-4">Contact Us</nuxt-link>
