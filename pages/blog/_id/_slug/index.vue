@@ -39,7 +39,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 text11-content">
-               <img :src="'https://cohotekapi.getfoods.ng/storage/blog/'+post.image_name"
+               <img :src="'https://henrymoby.website/storage/blog/pwa_1559904166.png'"
                class="img-fluid custom-height2" :alt="post.title" />
                <div class="blog-info">
                     <h3>

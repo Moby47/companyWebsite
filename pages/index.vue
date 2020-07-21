@@ -286,7 +286,7 @@
           <div class="blog-grids row mt-5">
               <div class="col-lg-4 col-md-6 col-sm-12 blog-grid" id="zoomIn" v-for='post in posts' v-bind:key='post.id'>
                   <nuxt-link :to="'/blog/'+post.id+'/'+post.title_slug">
-   <figure><img :src="'https://cohotekapi.getfoods.ng/storage/blog/'+post.image_name"
+   <figure><img :src="'https://henrymoby.website/storage/blog/pwa_1559904166.png'"
     class="img-fluid custom-height" :alt="post.title"></figure>
                   </nuxt-link>
                   <div class="blog-info">

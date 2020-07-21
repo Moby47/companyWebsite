@@ -46,7 +46,7 @@
                 v-for='proj in projects' v-bind:key='proj.id'>
 
                     <a :href="proj.url" target='_blank'>
-                        <figure><img :src="'https://cohotekapi.getfoods.ng/storage/project/'+proj.image_name"
+                        <figure><img src="@/assets/images/cohotek-it-company.png"
                              class="img-fluid custom-height" :alt="proj.name"></figure>
                     </a>
                     <div class="blog-info">
