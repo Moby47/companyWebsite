@@ -27,7 +27,7 @@
                 <div class="row contact-main mt-5">
                     <div class="col-md-6 ">
                         <div class="column">
-                            <h3 class="header">We are hear for you</h3>
+                            <h3 class="header">We are here for you</h3>
                             <p class="head-main">For more information or inquiry
                                  about our services, projects and pricing
                                 please feel free to
