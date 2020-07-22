@@ -27,8 +27,7 @@
                     We live in a digital era where everything can be done on the Internet 
                     and websites powers the Internet.</h6>
 
-                  <p class="mt-md-4 mt-3"> Cohotek, a subsidiary of <b><a target='_blank' href='Https://cloudcolony.net'>Cloud Colony Incorporated</a></b>,
-                   offers a wide range of web development services that will help you put your
+                  <p class="mt-md-4 mt-3"> Cohotek offers a wide range of web development services that will help you put your
                         business on the map and start making a profit. 
                         Our staff comprises of experienced specialists in 
                         the field of web development, SEO promotion, web design. 

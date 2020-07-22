@@ -31,7 +31,7 @@
                             <p class="head-main">For more information or inquiry
                                  about our services, projects and pricing
                                 please feel free to
-                                get in touch with us or call our technical lead directly: <b> <a href='tel:+2348074247448' style='text-decoration:underline;'> Oghogho Airhunde</a></b> </p>
+                                get in touch with us</p>
                         </div>
                         <div class="column2">
                             <div class="contact-para contact-info-align">
@@ -40,8 +40,7 @@
                                 </div>
                                <div>
                                     <strong class="info">Address:</strong>
-                                       <!--  No 17 A. Ozumba Mbadiwe. Victoria Island-->
-                                       Anthony Agodi House 76, Mobolaji Bank-Anthony Way Ikeja, Lagos Nigeria (NG)
+                                        EvertyOne Towers, Lagos, Nigeria
                                 </div>
                             </div>
                             <div class="contact-info-align">
@@ -50,7 +49,6 @@
                                 </div>
                                 <div>
                                     <strong class="info">Phone:</strong>
-                                    <a href="tel:+2348074247448"> +2348074247448</a> ,
                                         <a href="tel:+2348035562231"> +2348035562231</a> ,
                                     <a href="tel:+2347069685282"> +2347069685282</a>
                                 </div>
@@ -61,10 +59,8 @@
                                 </div>
                                 <div>
                                     <strong class="info">Email:</strong> 
-                                    <a href="mailto:oairhunde@gmail.com">
-                                        oairhunde@gmail.com</a>
-                                        <!--<a href="mailto:henryonyemaobi@gmail.com">
-                                        henryonyemaobi@gmail.com</a>-->
+                                        <a href="mailto:henryonyemaobi@gmail.com">
+                                        henryonyemaobi@gmail.com</a>
                                 </div>
                             </div>
                         </div>
@@ -80,7 +76,7 @@
                     <!-- map iframe-->
                     <div class="col-md-6 map mt-lg-0 mt-4">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.577991062897!2d3.359895315250994!3d6.574822324387489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9273addad1a5%3A0xc8ef2f44fd3bb3e2!2s76%20Mobolaji%20Bank%20Anthony%20Way%2C%20Ikeja%20GRA%20100271%2C%20Ikeja%2C%20Nigeria!5e0!3m2!1sen!2sus!4v1595325571328!5m2!1sen!2sus"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.6879546920677!2d3.4405741152508793!3d6.434113125979887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf58821741083%3A0x7a9bab765f9cc475!2sEvertyOne%20Towers!5e0!3m2!1sen!2sus!4v1595450568297!5m2!1sen!2sus"
                             frameborder="0" style="border:0" allowfullscreen=""></iframe>
                     </div>
                     <!-- //map iframe -->
