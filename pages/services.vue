@@ -31,7 +31,7 @@
                         <h4 class="title-left">Web Development</h4>
                         <p class="text-para">Our team use the best web development tools in crafting beautiful 
                                 websites using modern technologies. We build websites that are sleek, 
-                                responsive, eye-catching, easy to use and dynamic, to attract visitors and persuade them to buy. </p>
+                                responsive, easy to use and dynamic, to attract visitors and persuade them to buy. </p>
                                 <nuxt-link to="/portfolio" class="btn btn-primary btn-style mt-4">Our Works</nuxt-link>
                     </div>
                     <div class="col-lg-6 feature-grid-right order1">
