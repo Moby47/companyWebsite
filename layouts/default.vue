@@ -61,7 +61,7 @@
                 </nuxt-link>
               </div>
               <div>
-                <p class="">CohoTek IT Solutions is a one-stop IT company dedicated to creating value
+                <p class="">CohoTek IT Solutions, a subsidiary of <strong style='color:white !important'>Cloudcolony</strong>, is a one-stop IT company dedicated to creating value
                     through our products and services. We focus on efficiency, easy of use and affordability in all of 
                    our products and services and have only one major goal – making our customers happy.
                   </p>

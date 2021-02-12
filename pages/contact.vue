@@ -33,7 +33,39 @@
                                 please feel free to
                                 get in touch with us.</p>
                         </div>
-                        <div class="column2">
+                       <div class="column2">
+                            <div class="contact-para contact-info-align">
+                                <div class="icon">
+                                    <span class="fa fa-user"></span>
+                                </div>
+                               <div>
+                                    <strong class="info">Teamlead:</strong class="info">
+                                        Oghogho Mary Airhunde
+                                </div>
+                            </div>
+                            <div class="contact-info-align">
+                                <div class="icon">
+                                    <span class="fa fa-phone"></span>
+                                </div>
+                                <div>
+                                    <strong class="info">Phone:</strong class="info">
+                                        <a href="tel:+2348074247448"> +2348074247448</a> 
+                                </div>
+                            </div>
+                            <div class="contact-info-align">
+                                <div class="icon">
+                                    <span class="fa fa-envelope-open-o"> </span>
+                                </div>
+                                <div>
+                                    <strong class="info">Emails:</strong> 
+                                    <a href="mailto:oairhunde@gmail.com">
+                                        oairhunde@gmail.com</a> ,
+                                        <a href="mailto:mary.airhunde@cloudcolony.net">
+                                            mary.airhunde@cloudcolony.net</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div class="column2">
                             <div class="contact-para contact-info-align">
                                 <div class="icon">
                                     <span class="fa fa-map-marker"></span>
@@ -63,7 +95,7 @@
                                         support@cohotek.tech</a>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                         <div class="column3">
                             <h3 class="header follow">Follow us </h3>
                             <a href="#facebook" class="facebook" title="facebook"><span class="fa fa-facebook"></span></a>

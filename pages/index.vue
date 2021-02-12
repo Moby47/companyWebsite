@@ -43,8 +43,8 @@
                   <h3 class="title">Experience IT</h3>
                   <h6>Do you have trouble reaching your clients and customers online? Poor
                       web presence might be the reason why!</h6>
-                  <p class="mt-md-4 mt-3 mb-0"> Our staff comprises of experienced specialists in the field of web development, SEO promotion,
-                      web design, IT training, and support. 
+                  <p class="mt-md-4 mt-3 mb-0"> Our staff comprises of experienced specialists in the field of<strong> Microsoft product support, web development, SEO promotion,
+                      web design, and IT training. </strong>
                      Your website is your online business card. Develop your brand with CohoTek to stay 
                      ahead of the competition!</p>
               </div>
