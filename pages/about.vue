@@ -29,7 +29,7 @@
 
                   <p class="mt-md-4 mt-3"> Cohotek offers a wide range of web development services that will help you put your
                         business on the map and start making a profit. 
-                        Our staff comprises of experienced Microsoft technical specialists in 
+                        Our staff comprises of experienced Microsoft technical engineer in 
                         the field of web development, SEO promotion, web design. 
                         Your website is your online business card. Develop your brand with Cohotek IT company
                         to stay ahead of the competition!</p>
