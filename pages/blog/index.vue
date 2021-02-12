@@ -47,7 +47,7 @@
                 v-for='post in posts' v-bind:key='post.id'
                 >
                 <nuxt-link :to="'/blog/'+post.id+'/'+post.title_slug">
-                    <figure><img :src="'https://cohotekapi.henrymoby.tech/storage/blog/'+post.image_name"
+                    <figure><img :src="'https://henrymoby.website/storage/blog/pwa_1559904166.png'"
                      class="img-fluid custom-height" :alt="post.title"></figure>
                                    </nuxt-link>
                                    <div class="blog-info">
@@ -128,7 +128,7 @@
 if(page_url){
  this.$nuxt.$loading.start()
 }
-var   page_url = page_url || 'https://cohotekapi.henrymoby.tech/api/posts';
+var   page_url = page_url || 'https://cohotekapi.getfoods.ng/api/posts';
 
 fetch(page_url, {
 method: 'GET',

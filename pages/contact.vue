@@ -27,11 +27,11 @@
                 <div class="row contact-main mt-5">
                     <div class="col-md-6 ">
                         <div class="column">
-                            <h3 class="header">We are hear for you</h3>
+                            <h3 class="header">We are here for you</h3>
                             <p class="head-main">For more information or inquiry
                                  about our services, projects and pricing
                                 please feel free to
-                                get in touch with us.</p>
+                                get in touch with us</p>
                         </div>
                        <div class="column2">
                             <div class="contact-para contact-info-align">
@@ -71,8 +71,8 @@
                                     <span class="fa fa-map-marker"></span>
                                 </div>
                                <div>
-                                    <strong class="info">Address:</strong class="info">
-                                         No 17 A. Ozumba Mbadiwe. Victoria Island
+                                    <strong class="info">Address:</strong>
+                                        EvertyOne Towers, Lagos, Nigeria
                                 </div>
                             </div>
                             <div class="contact-info-align">
@@ -80,7 +80,7 @@
                                     <span class="fa fa-phone"></span>
                                 </div>
                                 <div>
-                                    <strong class="info">Phone:</strong class="info">
+                                    <strong class="info">Phone:</strong>
                                         <a href="tel:+2348035562231"> +2348035562231</a> ,
                                     <a href="tel:+2347069685282"> +2347069685282</a>
                                 </div>
@@ -91,8 +91,8 @@
                                 </div>
                                 <div>
                                     <strong class="info">Email:</strong> 
-                                    <a href="mailto:support@cohotek.tech">
-                                        support@cohotek.tech</a>
+                                        <a href="mailto:henryonyemaobi@gmail.com">
+                                        henryonyemaobi@gmail.com</a>
                                 </div>
                             </div>
                         </div>-->
@@ -108,7 +108,7 @@
                     <!-- map iframe-->
                     <div class="col-md-6 map mt-lg-0 mt-4">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.6589273286695!2d3.4100281147702547!3d6.437831895342325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8ad63435c713%3A0xe1a93bf07adefdb6!2sThe%20Wings%20Complex!5e0!3m2!1sen!2sng!4v1586457537768!5m2!1sen!2sng"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.6879546920677!2d3.4405741152508793!3d6.434113125979887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf58821741083%3A0x7a9bab765f9cc475!2sEvertyOne%20Towers!5e0!3m2!1sen!2sus!4v1595450568297!5m2!1sen!2sus"
                             frameborder="0" style="border:0" allowfullscreen=""></iframe>
                     </div>
                     <!-- //map iframe -->
@@ -121,7 +121,7 @@
         <div class="container">
             <div class="contacts12-main">
                 <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12 mb-md-5 mb-3">
-                    <h4 class="section-title">we want to here from you</h4>
+                    <h4 class="section-title">we want to hear from you</h4>
                 </div>
                 <!-- contact form -->
                 <form action="#" method="post">
@@ -216,7 +216,7 @@
          //send to database with axios
          console.log(formdata)
      
-         axios.post('https://cohotekapi.henrymoby.tech/api/contact',formdata)
+         axios.post('https://cohotekapi.getfoods.ng/api/contact',formdata)
          .then(res=>{
        if(res.data == 'ok'){
          this.$nuxt.$loading.finish()

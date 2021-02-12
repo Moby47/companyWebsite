@@ -153,7 +153,7 @@
                                           <span class="fa fa-star"></span>
                                           <span class="fa fa-star"></span>
                                       </div>
-                                      <p>I love my online shop, thanks Cohotek! keep up the good web developement.</p>
+                                      <p>I love my online shop, thanks Cohotek! keep up the good work.</p>
                                       <div class="customers-bottom_sur">
                                           <div class="custo_grid">
                                               <h5>Eweje</h5>
@@ -182,8 +182,8 @@
                                       <div class="customers-bottom_sur">
                                           <div class="custo_grid">
                                               <h5>Henry</h5>
-                                              <span><a href='https://henrymoby.tech' target='_blank'>
-                                                henrymoby.tech</a></span>
+                                              <span><a href='https://getfoods.ng' target='_blank'>
+                                                getfoods.ng</a></span>
                                           </div>
                                       </div>
                                   </div>
@@ -244,14 +244,14 @@
                           <div class="icon">
                               <span class="fa fa-headphones"></span>
                           </div>
-                          <p class="value">12</p>
+                          <p class="value">32</p>
                           <p class="title white">Consultant</p>
                       </div>
                       <div class="counter">
                           <div class="icon">
                               <span class="fa fa-trophy"></span>
                           </div>
-                          <p class="value">10</p>
+                          <p class="value">11</p>
                           <p class="title white">Awards</p>
                       </div>
                   </div>
@@ -286,7 +286,7 @@
           <div class="blog-grids row mt-5">
               <div class="col-lg-4 col-md-6 col-sm-12 blog-grid" id="zoomIn" v-for='post in posts' v-bind:key='post.id'>
                   <nuxt-link :to="'/blog/'+post.id+'/'+post.title_slug">
-   <figure><img :src="'https://cohotekapi.henrymoby.tech/storage/blog/'+post.image_name"
+   <figure><img :src="'https://henrymoby.website/storage/blog/pwa_1559904166.png'"
     class="img-fluid custom-height" :alt="post.title"></figure>
                   </nuxt-link>
                   <div class="blog-info">
@@ -349,7 +349,7 @@ export default {
   methods: {
 
   getProjectCount(){
-      fetch('https://cohotekapi.henrymoby.tech/api/project-count', {
+      fetch('https://cohotekapi.getfoods.ng/api/project-count', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -370,7 +370,7 @@ export default {
 
 
   getPosts(){
-      fetch('https://cohotekapi.henrymoby.tech/api/posts', {
+      fetch('https://cohotekapi.getfoods.ng/api/posts', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
